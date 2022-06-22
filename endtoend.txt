@@ -1,4 +1,4 @@
-Scenario:
+Scenario: EndToEnd
 * Sisteme başarılı bir şekilde giriş yapılır.
 * MentorLabs Happy hour adlı playlist oluşturulur.(API)
 * Yeah! (feat. Lil Jon & Ludacris) şarkısı eklenir.(API)
