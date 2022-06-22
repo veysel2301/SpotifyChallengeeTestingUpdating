@@ -88,8 +88,6 @@ Feature: EndToEnd
 
     And waitFor("//a[@class='standalone-ellipsis-one-line utSR0FVkHnII_aL8TOcu']/span[contains(text(),'MentorLabs Challenge')]").click()
 
-    And waitFor("//div[@class='JUa6JJNj7R_Y3i4P8YUX']/div[2]/div[3]/li/div").click()
-
     #Give Me Everything adlı parça eklenir
     And click('.Type__TypeElement-goli3j-0.dhAODk')
     And input('.Type__TypeElement-goli3j-0.ebHsEf.l42JW4EP_5CU1Ba7jYIc','Give Me  Everything')
