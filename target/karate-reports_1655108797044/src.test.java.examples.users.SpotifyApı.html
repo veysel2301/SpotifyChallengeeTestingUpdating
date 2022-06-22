@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.examples.users.SpotifyApı</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">3</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-06-13 11:25:56 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:35]"><span>[1:35]</span> <span>Get Playlist User</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[2:41]"><span>[2:41]</span> <span>Create Playlist</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[3:47]"><span>[3:47]</span> <span>Search Bohemian Rhapsody</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/examples/users/SpotifyApı.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Apı Testing</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:35]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:35]</span>
+                <span class="scenario-name">Get Playlist User</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>40</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:35]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:35]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlHome = &#39;https://open.spotify.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.3">11:25:56.755 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:35]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userid = &#39;hd5mvu4goazdxz6jzzcl31q5j&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:35]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def requestbody =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">27</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.5">{
+ &quot;name&quot;: &quot;MentorlabsChallenge&quot;,
+ &quot;description&quot;: &quot;New playlist description&quot;,
+ &quot;public&quot;: false
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:35]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def requestSearchbody =</span>
+      </div>
+    </div>
+    <div class="time-cell failed">12</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.14">&quot;tracks&quot;: {
+   &quot;href&quot;: &quot;https://api.spotify.com/v1/search?query=Bohemian+Rhapsody&amp;type=track&amp;locale=tr-TR%2Ctr%3Bq%3D0.9%2Cen-US%3Bq%3D0.8%2Cen%3Bq%3D0.7&amp;offset=0&amp;limit=20&quot;,
+   &quot;items&quot;: [
+     {
+       &quot;album&quot;: {
+         &quot;album_type&quot;: &quot;album&quot;,
+         &quot;artists&quot;: [
+           {
+             &quot;external_urls&quot;: {
+               &quot;spotify&quot;: &quot;https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d&quot;
+             },
+             &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d&quot;,
+             &quot;id&quot;: &quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,
+             &quot;name&quot;: &quot;Queen&quot;,
+             &quot;type&quot;: &quot;artist&quot;,
+             &quot;uri&quot;: &quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;
+           }
+         ]</div>
+
+  
+
+  <div class="preformatted" data-parent="0.14">11:25:56.818 src/test/java/examples/users/SpotifyApı.feature:14
+* def requestSearchbody =
+&quot;&quot;&quot;
+&quot;tracks&quot;: {
+   &quot;href&quot;: &quot;https://api.spotify.com/v1/search?query=Bohemian+Rhapsody&amp;type=track&amp;locale=tr-TR%2Ctr%3Bq%3D0.9%2Cen-US%3Bq%3D0.8%2Cen%3Bq%3D0.7&amp;offset=0&amp;limit=20&quot;,
+   &quot;items&quot;: [
+     {
+       &quot;album&quot;: {
+         &quot;album_type&quot;: &quot;album&quot;,
+         &quot;artists&quot;: [
+           {
+             &quot;external_urls&quot;: {
+               &quot;spotify&quot;: &quot;https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d&quot;
+             },
+             &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d&quot;,
+             &quot;id&quot;: &quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,
+             &quot;name&quot;: &quot;Queen&quot;,
+             &quot;type&quot;: &quot;artist&quot;,
+             &quot;uri&quot;: &quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;
+           }
+         ]
+&quot;&quot;&quot;
+&gt;&gt;&gt;&gt; js failed:
+01: &quot;tracks&quot;: {
+02:    &quot;href&quot;: &quot;https://api.spotify.com/v1/search?query=Bohemian+Rhapsody&amp;type=track&amp;locale=tr-TR%2Ctr%3Bq%3D0.9%2Cen-US%3Bq%3D0.8%2Cen%3Bq%3D0.7&amp;offset=0&amp;limit=20&quot;,
+03:    &quot;items&quot;: [
+04:      {
+05:        &quot;album&quot;: {
+06:          &quot;album_type&quot;: &quot;album&quot;,
+07:          &quot;artists&quot;: [
+08:            {
+09:              &quot;external_urls&quot;: {
+10:                &quot;spotify&quot;: &quot;https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d&quot;
+11:              },
+12:              &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d&quot;,
+13:              &quot;id&quot;: &quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,
+14:              &quot;name&quot;: &quot;Queen&quot;,
+15:              &quot;type&quot;: &quot;artist&quot;,
+16:              &quot;uri&quot;: &quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;
+17:            }
+18:          ]
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:8 Expected ; but found :
+&quot;tracks&quot;: {
+        ^
+Unnamed:2:9 Expected ; but found :
+   &quot;href&quot;: &quot;https://api.spotify.com/v1/search?query=Bohemian+Rhapsody&amp;type=track&amp;locale=tr-TR%2Ctr%3Bq%3D0.9%2Cen-US%3Bq%3D0.8%2Cen%3Bq%3D0.7&amp;offset=0&amp;limit=20&quot;,
+         ^
+Unnamed:3:10 Expected ; but found :
+   &quot;items&quot;: [
+          ^
+Unnamed:5:14 Expected ; but found :
+       &quot;album&quot;: {
+              ^
+Unnamed:6:21 Expected ; but found :
+         &quot;album_type&quot;: &quot;album&quot;,
+                     ^
+Unnamed:7:18 Expected ; but found :
+         &quot;artists&quot;: [
+                  ^
+Unnamed:9:28 Expected ; but found :
+             &quot;external_urls&quot;: {
+                            ^
+Unnamed:10:24 Expected ; but found :
+               &quot;spotify&quot;: &quot;https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d&quot;
+                        ^
+Unnamed:11:13 Expected eof but found }
+             },
+             ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:373)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:124)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:120)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1246)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2202)
+- com.intuit.karate.core.ScenarioEngine.evalAndCastTo(ScenarioEngine.java:1336)
+- com.intuit.karate.core.ScenarioEngine.assign(ScenarioEngine.java:1369)
+
+src/test/java/examples/users/SpotifyApı.feature:14
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.36">
+      <div class="step-ref skipped">36</div>
+      
+      <div class="step-cell skipped">
+        <span>Given</span>&nbsp;<span>url &#39;https://api.spotify.com/v1/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.37">
+      <div class="step-ref skipped">37</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>path &#39;/me&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.38">
+      <div class="step-ref skipped">38</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>header Authorization = &#39;Bearer BQB2PpsY3Mz8I9Lsd91mPWAnkvHa0leeWD-oiyWoqyyzs0z6kk8RwEQ1FNNHTIJ67C6AdWopkeTSeQESFEPD9Gn1EotZjPZJwrzCKILSMcTDauxcBDuOxNFfCQVV3XI8Wxjw9zJvZDPoRoiqCUazgW4dknTPXKusKhlM3YMZskm0SV7Gs98pyeT67LumKQ-Q7JFT7pr9uLkwMx9aS0Sjv6U_4uRgMbcdDIHeKxH0VYkzVRC2o3Jvd_rOZ-BmjVOmHyo8Rw90SH4APp6yUtjSADX54IdIKkOE&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.39">
+      <div class="step-ref skipped">39</div>
+      
+      <div class="step-cell skipped">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:41]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:41]</span>
+                <span class="scenario-name">Create Playlist</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:41]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:41]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlHome = &#39;https://open.spotify.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.3">11:25:56.824 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:41]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userid = &#39;hd5mvu4goazdxz6jzzcl31q5j&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:41]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def requestbody =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.5">{
+ &quot;name&quot;: &quot;MentorlabsChallenge&quot;,
+ &quot;description&quot;: &quot;New playlist description&quot;,
+ &quot;public&quot;: false
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:41]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def requestSearchbody =</span>
+      </div>
+    </div>
+    <div class="time-cell failed">1</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.14">&quot;tracks&quot;: {
+   &quot;href&quot;: &quot;https://api.spotify.com/v1/search?query=Bohemian+Rhapsody&amp;type=track&amp;locale=tr-TR%2Ctr%3Bq%3D0.9%2Cen-US%3Bq%3D0.8%2Cen%3Bq%3D0.7&amp;offset=0&amp;limit=20&quot;,
+   &quot;items&quot;: [
+     {
+       &quot;album&quot;: {
+         &quot;album_type&quot;: &quot;album&quot;,
+         &quot;artists&quot;: [
+           {
+             &quot;external_urls&quot;: {
+               &quot;spotify&quot;: &quot;https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d&quot;
+             },
+             &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d&quot;,
+             &quot;id&quot;: &quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,
+             &quot;name&quot;: &quot;Queen&quot;,
+             &quot;type&quot;: &quot;artist&quot;,
+             &quot;uri&quot;: &quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;
+           }
+         ]</div>
+
+  
+
+  <div class="preformatted" data-parent="0.14">11:25:56.824 src/test/java/examples/users/SpotifyApı.feature:14
+* def requestSearchbody =
+&quot;&quot;&quot;
+&quot;tracks&quot;: {
+   &quot;href&quot;: &quot;https://api.spotify.com/v1/search?query=Bohemian+Rhapsody&amp;type=track&amp;locale=tr-TR%2Ctr%3Bq%3D0.9%2Cen-US%3Bq%3D0.8%2Cen%3Bq%3D0.7&amp;offset=0&amp;limit=20&quot;,
+   &quot;items&quot;: [
+     {
+       &quot;album&quot;: {
+         &quot;album_type&quot;: &quot;album&quot;,
+         &quot;artists&quot;: [
+           {
+             &quot;external_urls&quot;: {
+               &quot;spotify&quot;: &quot;https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d&quot;
+             },
+             &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d&quot;,
+             &quot;id&quot;: &quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,
+             &quot;name&quot;: &quot;Queen&quot;,
+             &quot;type&quot;: &quot;artist&quot;,
+             &quot;uri&quot;: &quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;
+           }
+         ]
+&quot;&quot;&quot;
+&gt;&gt;&gt;&gt; js failed:
+01: &quot;tracks&quot;: {
+02:    &quot;href&quot;: &quot;https://api.spotify.com/v1/search?query=Bohemian+Rhapsody&amp;type=track&amp;locale=tr-TR%2Ctr%3Bq%3D0.9%2Cen-US%3Bq%3D0.8%2Cen%3Bq%3D0.7&amp;offset=0&amp;limit=20&quot;,
+03:    &quot;items&quot;: [
+04:      {
+05:        &quot;album&quot;: {
+06:          &quot;album_type&quot;: &quot;album&quot;,
+07:          &quot;artists&quot;: [
+08:            {
+09:              &quot;external_urls&quot;: {
+10:                &quot;spotify&quot;: &quot;https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d&quot;
+11:              },
+12:              &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d&quot;,
+13:              &quot;id&quot;: &quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,
+14:              &quot;name&quot;: &quot;Queen&quot;,
+15:              &quot;type&quot;: &quot;artist&quot;,
+16:              &quot;uri&quot;: &quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;
+17:            }
+18:          ]
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:8 Expected ; but found :
+&quot;tracks&quot;: {
+        ^
+Unnamed:2:9 Expected ; but found :
+   &quot;href&quot;: &quot;https://api.spotify.com/v1/search?query=Bohemian+Rhapsody&amp;type=track&amp;locale=tr-TR%2Ctr%3Bq%3D0.9%2Cen-US%3Bq%3D0.8%2Cen%3Bq%3D0.7&amp;offset=0&amp;limit=20&quot;,
+         ^
+Unnamed:3:10 Expected ; but found :
+   &quot;items&quot;: [
+          ^
+Unnamed:5:14 Expected ; but found :
+       &quot;album&quot;: {
+              ^
+Unnamed:6:21 Expected ; but found :
+         &quot;album_type&quot;: &quot;album&quot;,
+                     ^
+Unnamed:7:18 Expected ; but found :
+         &quot;artists&quot;: [
+                  ^
+Unnamed:9:28 Expected ; but found :
+             &quot;external_urls&quot;: {
+                            ^
+Unnamed:10:24 Expected ; but found :
+               &quot;spotify&quot;: &quot;https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d&quot;
+                        ^
+Unnamed:11:13 Expected eof but found }
+             },
+             ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:373)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:124)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:120)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1246)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2202)
+- com.intuit.karate.core.ScenarioEngine.evalAndCastTo(ScenarioEngine.java:1336)
+- com.intuit.karate.core.ScenarioEngine.assign(ScenarioEngine.java:1369)
+
+src/test/java/examples/users/SpotifyApı.feature:14
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.42">
+      <div class="step-ref skipped">42</div>
+      
+      <div class="step-cell skipped">
+        <span>Given</span>&nbsp;<span>url &#39;https://api.spotify.com/v1/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.43">
+      <div class="step-ref skipped">43</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>path &#39;/users/&#39;+userid+&#39;/playlists&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.44">
+      <div class="step-ref skipped">44</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>header Authorization = &#39;Bearer BQAzMd0S88GPNM8xEHfYvv0g1-wGatTb9ojQrofjHt_XDWHcq6DU2QbZaDIAl3tDQRKH3M0Er0gqUTPSlX_1d7hDvB5F8GC6KWgJ8yEEDloHwFqFgQbStcKozTtD44Xnifel4u-r3pgc69geG2Q-C4JpjR81VPljkTKZar5VdoktJPAkXpYXdBpRw8svTDc3mrCsqjStEMCP9Q66QY6rqnWUQa2SQYHCJkU0qqfqJ1gBrbSg94BuOwtZDJnstsBMsOB37g89f5NPVAimhGzWXypfcEV5I59e&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.45">
+      <div class="step-ref skipped">45</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>request requestbody</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.46">
+      <div class="step-ref skipped">46</div>
+      
+      <div class="step-cell skipped">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:47]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:47]</span>
+                <span class="scenario-name">Search Bohemian Rhapsody</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>2</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:47]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:47]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlHome = &#39;https://open.spotify.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.3">11:25:56.824 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:47]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userid = &#39;hd5mvu4goazdxz6jzzcl31q5j&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:47]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def requestbody =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.5">{
+ &quot;name&quot;: &quot;MentorlabsChallenge&quot;,
+ &quot;description&quot;: &quot;New playlist description&quot;,
+ &quot;public&quot;: false
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:47]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>def requestSearchbody =</span>
+      </div>
+    </div>
+    <div class="time-cell failed">2</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.14">&quot;tracks&quot;: {
+   &quot;href&quot;: &quot;https://api.spotify.com/v1/search?query=Bohemian+Rhapsody&amp;type=track&amp;locale=tr-TR%2Ctr%3Bq%3D0.9%2Cen-US%3Bq%3D0.8%2Cen%3Bq%3D0.7&amp;offset=0&amp;limit=20&quot;,
+   &quot;items&quot;: [
+     {
+       &quot;album&quot;: {
+         &quot;album_type&quot;: &quot;album&quot;,
+         &quot;artists&quot;: [
+           {
+             &quot;external_urls&quot;: {
+               &quot;spotify&quot;: &quot;https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d&quot;
+             },
+             &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d&quot;,
+             &quot;id&quot;: &quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,
+             &quot;name&quot;: &quot;Queen&quot;,
+             &quot;type&quot;: &quot;artist&quot;,
+             &quot;uri&quot;: &quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;
+           }
+         ]</div>
+
+  
+
+  <div class="preformatted" data-parent="0.14">11:25:56.839 src/test/java/examples/users/SpotifyApı.feature:14
+* def requestSearchbody =
+&quot;&quot;&quot;
+&quot;tracks&quot;: {
+   &quot;href&quot;: &quot;https://api.spotify.com/v1/search?query=Bohemian+Rhapsody&amp;type=track&amp;locale=tr-TR%2Ctr%3Bq%3D0.9%2Cen-US%3Bq%3D0.8%2Cen%3Bq%3D0.7&amp;offset=0&amp;limit=20&quot;,
+   &quot;items&quot;: [
+     {
+       &quot;album&quot;: {
+         &quot;album_type&quot;: &quot;album&quot;,
+         &quot;artists&quot;: [
+           {
+             &quot;external_urls&quot;: {
+               &quot;spotify&quot;: &quot;https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d&quot;
+             },
+             &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d&quot;,
+             &quot;id&quot;: &quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,
+             &quot;name&quot;: &quot;Queen&quot;,
+             &quot;type&quot;: &quot;artist&quot;,
+             &quot;uri&quot;: &quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;
+           }
+         ]
+&quot;&quot;&quot;
+&gt;&gt;&gt;&gt; js failed:
+01: &quot;tracks&quot;: {
+02:    &quot;href&quot;: &quot;https://api.spotify.com/v1/search?query=Bohemian+Rhapsody&amp;type=track&amp;locale=tr-TR%2Ctr%3Bq%3D0.9%2Cen-US%3Bq%3D0.8%2Cen%3Bq%3D0.7&amp;offset=0&amp;limit=20&quot;,
+03:    &quot;items&quot;: [
+04:      {
+05:        &quot;album&quot;: {
+06:          &quot;album_type&quot;: &quot;album&quot;,
+07:          &quot;artists&quot;: [
+08:            {
+09:              &quot;external_urls&quot;: {
+10:                &quot;spotify&quot;: &quot;https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d&quot;
+11:              },
+12:              &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d&quot;,
+13:              &quot;id&quot;: &quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,
+14:              &quot;name&quot;: &quot;Queen&quot;,
+15:              &quot;type&quot;: &quot;artist&quot;,
+16:              &quot;uri&quot;: &quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;
+17:            }
+18:          ]
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:8 Expected ; but found :
+&quot;tracks&quot;: {
+        ^
+Unnamed:2:9 Expected ; but found :
+   &quot;href&quot;: &quot;https://api.spotify.com/v1/search?query=Bohemian+Rhapsody&amp;type=track&amp;locale=tr-TR%2Ctr%3Bq%3D0.9%2Cen-US%3Bq%3D0.8%2Cen%3Bq%3D0.7&amp;offset=0&amp;limit=20&quot;,
+         ^
+Unnamed:3:10 Expected ; but found :
+   &quot;items&quot;: [
+          ^
+Unnamed:5:14 Expected ; but found :
+       &quot;album&quot;: {
+              ^
+Unnamed:6:21 Expected ; but found :
+         &quot;album_type&quot;: &quot;album&quot;,
+                     ^
+Unnamed:7:18 Expected ; but found :
+         &quot;artists&quot;: [
+                  ^
+Unnamed:9:28 Expected ; but found :
+             &quot;external_urls&quot;: {
+                            ^
+Unnamed:10:24 Expected ; but found :
+               &quot;spotify&quot;: &quot;https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d&quot;
+                        ^
+Unnamed:11:13 Expected eof but found }
+             },
+             ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:373)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:124)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:120)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1246)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2202)
+- com.intuit.karate.core.ScenarioEngine.evalAndCastTo(ScenarioEngine.java:1336)
+- com.intuit.karate.core.ScenarioEngine.assign(ScenarioEngine.java:1369)
+
+src/test/java/examples/users/SpotifyApı.feature:14
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.48">
+      <div class="step-ref skipped">48</div>
+      
+      <div class="step-cell skipped">
+        <span>Given</span>&nbsp;<span>url &#39;https://api.spotify.com/v1/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.49">
+      <div class="step-ref skipped">49</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>path &#39;/search&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.50">
+      <div class="step-ref skipped">50</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>header Authorization = &#39;Bearer BQAzNEJmL79hlyM_cVgtioWiHRTXdoyS8FF3uE7htmUjrZPdjcNz_HKFROqmDGe2_3tBUxRGSDg5wrerxHy4zwE8DRlyb_OqG_4VSqZfdqkthhZWllR4QI_T2Ifeoc5m75ZtGCzwces_UupFS1UsjTlue5BCtVcv4eiZ76jJDMPLN8-vGtt8c-8ZK1vIRFzmEMmZB_EqjGylBuNMqixBMbrZuwT0TOiCMlQ76pm8U_oehszhlJtmt3XIzDbwXQFmkqdiwkho3pwCrDYdlxjjp9-_TYjYviGm&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.51">
+      <div class="step-ref skipped">51</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>request requestSearchbody</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.52">
+      <div class="step-ref skipped">52</div>
+      
+      <div class="step-cell skipped">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.examples.users.EndToEndSpotify</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-06-21 11:25:45 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1:8]"><span>[1:8]</span> <span>End to End Scenario Faz-2</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/examples/users/EndToEndSpotify.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">EndToEnd</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:8]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:8]</span>
+                <span class="scenario-name">End to End Scenario Faz-2</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>15933</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:8]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure driver = { type: &#39;chromedriver&#39;, executable: &#39;src/test/java/resources/chromedriver.exe&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">26</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.3">11:25:29.259 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlHome = &#39;https://open.spotify.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userid = &#39;hd5mvu4goazdxz6jzzcl31q5j&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apiToken = &#39;BQBKoBTwTkuuPiksWY4OzymY-6fHvntEqSdsO4rSB-MIzjwqT2XPYbuBVLs6cX7JGBJDPWHN2wXYVur112VWKflyC265Ctuz2VEtPiQd5djg1ub71x3atD3gIO6pcM_37DuPkNhnSF9RUi8ZHc9TsykEgeXr0W6cnUsfT-TsaGOe6W-5puLaORxtD5l6G_HYOQ8txsOlXFaptq2nOFD0sZIJFdWoUjoj7WAW5bAUKZCqBy0mKh17o7eB9t0jvZzXH5zXeuAvaewc1qBs9KZZorbJr2QmWxSTYVoNnAIOKQ&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>driver &#39;https://open.spotify.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">12703</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">11:25:29.306 preferred port 9515 not available, will use: 51710
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>driver.maximize()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">129</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref failed">11</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>click(&quot;//button[@data-testid=&#39;login-button&#39;]&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell failed">3073</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.11">11:25:45.216 src/test/java/examples/users/EndToEndSpotify.feature:11
+And click(&quot;//button[@data-testid=&#39;login-button&#39;]&quot;)
+&gt;&gt;&gt;&gt; js failed:
+01: click(&quot;//button[@data-testid=&#39;login-button&#39;]&quot;)
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: javascript failed twice: {&quot;value&quot;:{&quot;error&quot;:&quot;javascript error&quot;,&quot;message&quot;:&quot;javascript error: Cannot read properties of null (reading &#39;click&#39;)\n  (Session info: chrome=102.0.5005.115)&quot;,&quot;stacktrace&quot;:&quot;Backtrace:\n\tOrdinal0 [0x0035D953+2414931]\n\tOrdinal0 [0x002EF5E1+1963489]\n\tOrdinal0 [0x001DC6B8+837304]\n\tOrdinal0 [0x001DF0B4+848052]\n\tOrdinal0 [0x001DEF72+847730]\n\tOrdinal0 [0x001DF8EA+850154]\n\tOrdinal0 [0x00235249+1200713]\n\tOrdinal0 [0x0022449C+1131676]\n\tOrdinal0 [0x00234812+1198098]\n\tOrdinal0 [0x002242B6+1131190]\n\tOrdinal0 [0x001FE860+976992]\n\tOrdinal0 [0x001FF756+980822]\n\tGetHandleVerifier [0x005CCC62+2510274]\n\tGetHandleVerifier [0x005BF760+2455744]\n\tGetHandleVerifier [0x003EEABA+551962]\n\tGetHandleVerifier [0x003ED916+547446]\n\tOrdinal0 [0x002F5F3B+1990459]\n\tOrdinal0 [0x002FA898+2009240]\n\tOrdinal0 [0x002FA985+2009477]\n\tOrdinal0 [0x00303AD1+2046673]\n\tBaseThreadInitThunk [0x7780FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77957A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77957A4E+238]\n&quot;}}
+- com.intuit.karate.driver.WebDriver.eval(WebDriver.java:162)
+- com.intuit.karate.driver.WebDriver.eval(WebDriver.java:169)
+- com.intuit.karate.driver.WebDriver.evalLocator(WebDriver.java:141)
+- com.intuit.karate.driver.WebDriver.lambda$click$5(WebDriver.java:309)
+- com.intuit.karate.driver.WebDriver.retryIfEnabled(WebDriver.java:123)
+- com.intuit.karate.driver.WebDriver.click(WebDriver.java:309)
+- &lt;js&gt;.:anonymous(Unnamed:1)
+
+src/test/java/examples/users/EndToEndSpotify.feature:11
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref skipped">12</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>scroll(&#39;#login-button&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  <div class="embed" data-parent="0.12"><img src="src.test.java.examples.users.EndToEndSpotify_1_1655799945356.png"/></div>
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref skipped">13</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>input(&#39;#login-username&#39;,&#39;veyseloner23@gmail.com&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref skipped">14</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>delay(2000)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref skipped">15</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>input(&#39;#login-password&#39;,&#39;Veysel23.&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref skipped">16</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>delay(2000)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref skipped">17</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>click(&#39;#login-button&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref skipped">18</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>delay(2000)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.19">
+      <div class="step-ref skipped">19</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>click(&quot;//div[@class=&#39;AINMAUImkAYJd4ertQxy&#39;][1]&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref skipped">20</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>waitFor(&#39;.T0anrkk_QA4IAQL29get.mYN_ST1TsDdC6q1k1_xs&#39;).click()</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref skipped">22</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>mouse().move(&quot;//ul[@class=&#39;SboKmDrCTZng7t4EgNoM&#39;]/li[8]&quot;).click()</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.23">
+      <div class="step-ref skipped">23</div>
+      
+      <div class="step-cell skipped">
+        <span>*</span>&nbsp;<span>delay(3000)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.24">
+      <div class="step-ref skipped">24</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>mouse().move(&quot;//ul[@class=&#39;SboKmDrCTZng7t4EgNoM&#39;]//div/li[4]&quot;).click()</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.25">
+      <div class="step-ref skipped">25</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>waitFor(&quot;//div[contains(text(),&#39;Çalma Listesine eklendi&#39;)]&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

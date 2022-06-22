@@ -1,0 +1,17 @@
+Scenario:
+* Sisteme başarılı bir şekilde giriş yapılır.
+* MentorLabs Faz-2 çalma listesi seçilir.
+* The Final Countdown şarkısı MentorLabsAPI çalma listene eklenir. 
+* MentorLabsAPI çalma listesine girilir. 
+* Listedeki İlk şarkı silinir 
+* Anasayfaya girilir.
+* Ruh hali playlistine girilir.
+* Mutlu Türkçe Şarkılar kategorisine girilir
+* İlk şarkı oynatılır
+* Şarkı 10 Sn sonra  durdurulur.
+* MentorLabsChallenge playlistine gidilir.
+* Daha Fazla tıklanır
+* "Give Me  Everything" adlı parça playliste eklenir.
+* İlk parça silinir.
+*  Playlistteki şarkı oynatılır
+* Testin sonlandığı yazılır 

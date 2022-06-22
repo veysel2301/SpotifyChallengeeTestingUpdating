@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.examples.users.SpotifyApı</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">3</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-06-13 11:38:28 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:14]"><span>[1:14]</span> <span>Get Playlist User</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:20]"><span>[2:20]</span> <span>Create Playlist</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3:26]"><span>[3:26]</span> <span>Search Bohemian Rhapsody</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/examples/users/SpotifyApı.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Apı Testing</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:14]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:14]</span>
+                <span class="scenario-name">Get Playlist User</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>946</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:14]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:14]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlHome = &#39;https://open.spotify.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.3">11:38:26.801 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:14]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userid = &#39;hd5mvu4goazdxz6jzzcl31q5j&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:14]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def requestbody =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">28</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.5">{
+ &quot;name&quot;: &quot;MentorlabsChallenge&quot;,
+ &quot;description&quot;: &quot;New playlist description&quot;,
+ &quot;public&quot;: false
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://api.spotify.com/v1/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/me&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = &#39;Bearer BQB2PpsY3Mz8I9Lsd91mPWAnkvHa0leeWD-oiyWoqyyzs0z6kk8RwEQ1FNNHTIJ67C6AdWopkeTSeQESFEPD9Gn1EotZjPZJwrzCKILSMcTDauxcBDuOxNFfCQVV3XI8Wxjw9zJvZDPoRoiqCUazgW4dknTPXKusKhlM3YMZskm0SV7Gs98pyeT67LumKQ-Q7JFT7pr9uLkwMx9aS0Sjv6U_4uRgMbcdDIHeKxH0VYkzVRC2o3Jvd_rOZ-BmjVOmHyo8Rw90SH4APp6yUtjSADX54IdIKkOE&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">913</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.18">11:38:27.250 request:
+1 &gt; GET https://api.spotify.com/v1/me
+1 &gt; Authorization: Bearer BQB2PpsY3Mz8I9Lsd91mPWAnkvHa0leeWD-oiyWoqyyzs0z6kk8RwEQ1FNNHTIJ67C6AdWopkeTSeQESFEPD9Gn1EotZjPZJwrzCKILSMcTDauxcBDuOxNFfCQVV3XI8Wxjw9zJvZDPoRoiqCUazgW4dknTPXKusKhlM3YMZskm0SV7Gs98pyeT67LumKQ-Q7JFT7pr9uLkwMx9aS0Sjv6U_4uRgMbcdDIHeKxH0VYkzVRC2o3Jvd_rOZ-BmjVOmHyo8Rw90SH4APp6yUtjSADX54IdIKkOE
+1 &gt; Host: api.spotify.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_331)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+11:38:27.765 response time in milliseconds: 515
+1 &lt; 200
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; cache-control: private, max-age=0
+1 &lt; vary: Authorization
+1 &lt; x-robots-tag: noindex, nofollow
+1 &lt; access-control-allow-origin: *
+1 &lt; access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+1 &lt; access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+1 &lt; access-control-allow-credentials: true
+1 &lt; access-control-max-age: 604800
+1 &lt; strict-transport-security: max-age=31536000
+1 &lt; x-content-type-options: nosniff
+1 &lt; date: Mon, 13 Jun 2022 08:38:28 GMT
+1 &lt; server: envoy
+1 &lt; Via: HTTP/2 edgeproxy, 1.1 google
+1 &lt; Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+1 &lt; Transfer-Encoding: chunked
+{&quot;country&quot;:&quot;TR&quot;,&quot;images&quot;:[],&quot;product&quot;:&quot;open&quot;,&quot;followers&quot;:{&quot;total&quot;:0,&quot;href&quot;:null},&quot;explicit_content&quot;:{&quot;filter_locked&quot;:false,&quot;filter_enabled&quot;:false},&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/users\/hd5mvu4goazdxz6jzzcl31q5j&quot;,&quot;id&quot;:&quot;hd5mvu4goazdxz6jzzcl31q5j&quot;,&quot;display_name&quot;:&quot;Veysel&quot;,&quot;type&quot;:&quot;user&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/user\/hd5mvu4goazdxz6jzzcl31q5j&quot;},&quot;uri&quot;:&quot;spotify:user:hd5mvu4goazdxz6jzzcl31q5j&quot;,&quot;email&quot;:&quot;veyseloner23@gmail.com&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:20]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:20]</span>
+                <span class="scenario-name">Create Playlist</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>440</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:20]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlHome = &#39;https://open.spotify.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.3">11:38:27.780 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userid = &#39;hd5mvu4goazdxz6jzzcl31q5j&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def requestbody =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.5">{
+ &quot;name&quot;: &quot;MentorlabsChallenge&quot;,
+ &quot;description&quot;: &quot;New playlist description&quot;,
+ &quot;public&quot;: false
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://api.spotify.com/v1/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/users/&#39;+userid+&#39;/playlists&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = &#39;Bearer BQAzMd0S88GPNM8xEHfYvv0g1-wGatTb9ojQrofjHt_XDWHcq6DU2QbZaDIAl3tDQRKH3M0Er0gqUTPSlX_1d7hDvB5F8GC6KWgJ8yEEDloHwFqFgQbStcKozTtD44Xnifel4u-r3pgc69geG2Q-C4JpjR81VPljkTKZar5VdoktJPAkXpYXdBpRw8svTDc3mrCsqjStEMCP9Q66QY6rqnWUQa2SQYHCJkU0qqfqJ1gBrbSg94BuOwtZDJnstsBMsOB37g89f5NPVAimhGzWXypfcEV5I59e&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.24">
+      <div class="step-ref passed">24</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request requestbody</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.25">
+      <div class="step-ref passed">25</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">431</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.25">11:38:27.803 request:
+1 &gt; POST https://api.spotify.com/v1/users/hd5mvu4goazdxz6jzzcl31q5j/playlists
+1 &gt; Authorization: Bearer BQAzMd0S88GPNM8xEHfYvv0g1-wGatTb9ojQrofjHt_XDWHcq6DU2QbZaDIAl3tDQRKH3M0Er0gqUTPSlX_1d7hDvB5F8GC6KWgJ8yEEDloHwFqFgQbStcKozTtD44Xnifel4u-r3pgc69geG2Q-C4JpjR81VPljkTKZar5VdoktJPAkXpYXdBpRw8svTDc3mrCsqjStEMCP9Q66QY6rqnWUQa2SQYHCJkU0qqfqJ1gBrbSg94BuOwtZDJnstsBMsOB37g89f5NPVAimhGzWXypfcEV5I59e
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 86
+1 &gt; Host: api.spotify.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_331)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;public&quot;:false,&quot;name&quot;:&quot;MentorlabsChallenge&quot;,&quot;description&quot;:&quot;New playlist description&quot;}
+
+11:38:28.209 response time in milliseconds: 406
+1 &lt; 201
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; cache-control: private, max-age=0
+1 &lt; location: https://api.spotify.com/v1/playlists/3wukdj8NoMkxXwOZKQNVrG
+1 &lt; x-robots-tag: noindex, nofollow
+1 &lt; access-control-allow-origin: *
+1 &lt; access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+1 &lt; access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+1 &lt; access-control-allow-credentials: true
+1 &lt; access-control-max-age: 604800
+1 &lt; strict-transport-security: max-age=31536000
+1 &lt; x-content-type-options: nosniff
+1 &lt; date: Mon, 13 Jun 2022 08:38:28 GMT
+1 &lt; server: envoy
+1 &lt; Via: HTTP/2 edgeproxy, 1.1 google
+1 &lt; Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+1 &lt; Transfer-Encoding: chunked
+{&quot;owner&quot;:{&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/users\/hd5mvu4goazdxz6jzzcl31q5j&quot;,&quot;id&quot;:&quot;hd5mvu4goazdxz6jzzcl31q5j&quot;,&quot;display_name&quot;:&quot;Veysel&quot;,&quot;type&quot;:&quot;user&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/user\/hd5mvu4goazdxz6jzzcl31q5j&quot;},&quot;uri&quot;:&quot;spotify:user:hd5mvu4goazdxz6jzzcl31q5j&quot;},&quot;images&quot;:[],&quot;snapshot_id&quot;:&quot;MSxlZGFhZGQ2YjFiNzA2ODFmNDQzYmU4M2M4YmIzNzc3NzVmODY1Mjk5&quot;,&quot;collaborative&quot;:false,&quot;description&quot;:&quot;New playlist description&quot;,&quot;primary_color&quot;:null,&quot;type&quot;:&quot;playlist&quot;,&quot;uri&quot;:&quot;spotify:playlist:3wukdj8NoMkxXwOZKQNVrG&quot;,&quot;tracks&quot;:{&quot;next&quot;:null,&quot;total&quot;:0,&quot;offset&quot;:0,&quot;previous&quot;:null,&quot;limit&quot;:100,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/playlists\/3wukdj8NoMkxXwOZKQNVrG\/tracks&quot;,&quot;items&quot;:[]},&quot;followers&quot;:{&quot;total&quot;:0,&quot;href&quot;:null},&quot;public&quot;:false,&quot;name&quot;:&quot;MentorlabsChallenge&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/playlists\/3wukdj8NoMkxXwOZKQNVrG&quot;,&quot;id&quot;:&quot;3wukdj8NoMkxXwOZKQNVrG&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/playlist\/3wukdj8NoMkxXwOZKQNVrG&quot;}}
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:26]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:26]</span>
+                <span class="scenario-name">Search Bohemian Rhapsody</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>443</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:26]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlHome = &#39;https://open.spotify.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.3">11:38:28.224 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userid = &#39;hd5mvu4goazdxz6jzzcl31q5j&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def requestbody =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.5">{
+ &quot;name&quot;: &quot;MentorlabsChallenge&quot;,
+ &quot;description&quot;: &quot;New playlist description&quot;,
+ &quot;public&quot;: false
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://api.spotify.com/v1/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/search&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = &#39;Bearer BQAzNEJmL79hlyM_cVgtioWiHRTXdoyS8FF3uE7htmUjrZPdjcNz_HKFROqmDGe2_3tBUxRGSDg5wrerxHy4zwE8DRlyb_OqG_4VSqZfdqkthhZWllR4QI_T2Ifeoc5m75ZtGCzwces_UupFS1UsjTlue5BCtVcv4eiZ76jJDMPLN8-vGtt8c-8ZK1vIRFzmEMmZB_EqjGylBuNMqixBMbrZuwT0TOiCMlQ76pm8U_oehszhlJtmt3XIzDbwXQFmkqdiwkho3pwCrDYdlxjjp9-_TYjYviGm&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.31">
+      <div class="step-ref passed">31</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param q = &#39;Bohemian Rhapsody&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.32">
+      <div class="step-ref passed">32</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param type = &#39;show&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">431</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.33">11:38:28.237 request:
+1 &gt; GET https://api.spotify.com/v1/search?q=Bohemian+Rhapsody&amp;type=show
+1 &gt; Authorization: Bearer BQAzNEJmL79hlyM_cVgtioWiHRTXdoyS8FF3uE7htmUjrZPdjcNz_HKFROqmDGe2_3tBUxRGSDg5wrerxHy4zwE8DRlyb_OqG_4VSqZfdqkthhZWllR4QI_T2Ifeoc5m75ZtGCzwces_UupFS1UsjTlue5BCtVcv4eiZ76jJDMPLN8-vGtt8c-8ZK1vIRFzmEMmZB_EqjGylBuNMqixBMbrZuwT0TOiCMlQ76pm8U_oehszhlJtmt3XIzDbwXQFmkqdiwkho3pwCrDYdlxjjp9-_TYjYviGm
+1 &gt; Content-Type: application/json
+1 &gt; Host: api.spotify.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_331)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+11:38:28.656 response time in milliseconds: 340
+1 &lt; 200
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; cache-control: public, max-age=7200
+1 &lt; x-robots-tag: noindex, nofollow
+1 &lt; access-control-allow-origin: *
+1 &lt; access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+1 &lt; access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+1 &lt; access-control-allow-credentials: true
+1 &lt; access-control-max-age: 604800
+1 &lt; strict-transport-security: max-age=31536000
+1 &lt; x-content-type-options: nosniff
+1 &lt; date: Mon, 13 Jun 2022 08:38:29 GMT
+1 &lt; server: envoy
+1 &lt; Via: HTTP/2 edgeproxy, 1.1 google
+1 &lt; Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+1 &lt; Transfer-Encoding: chunked
+{&quot;shows&quot;:{&quot;next&quot;:&quot;https:\/\/api.spotify.com\/v1\/search?query=Bohemian+Rhapsody&amp;type=show&amp;offset=20&amp;limit=20&quot;,&quot;total&quot;:31,&quot;offset&quot;:0,&quot;previous&quot;:null,&quot;limit&quot;:20,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/search?query=Bohemian+Rhapsody&amp;type=show&amp;offset=0&amp;limit=20&quot;,&quot;items&quot;:[{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab6765630000ba8a60dd33cd6e5c34baecce5b8f&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67656300005f1f60dd33cd6e5c34baecce5b8f&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab6765630000f68d60dd33cd6e5c34baecce5b8f&quot;,&quot;height&quot;:64}],&quot;languages&quot;:[&quot;es&quot;],&quot;copyrights&quot;:[],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BJ&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CH&quot;,&quot;CL&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KI&quot;,&quot;KN&quot;,&quot;KW&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;TH&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;VC&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;],&quot;description&quot;:&quot;Leída por Diego Martinez. Cuenta las situaciones que tuvieron que transitar la banda y la canción para que hoy sea reconocida como una de las más importantes de la historia de la música y su creación.&quot;,&quot;type&quot;:&quot;show&quot;,&quot;html_description&quot;:&quot;Leída por Diego Martinez. Cuenta las situaciones que tuvieron que transitar la banda y la canción para que hoy sea reconocida como una de las más importantes de la historia de la música y su creación.&quot;,&quot;uri&quot;:&quot;spotify:show:4fwLva2TaSJZnuviWp5Qka&quot;,&quot;is_externally_hosted&quot;:false,&quot;total_episodes&quot;:1,&quot;explicit&quot;:false,&quot;media_type&quot;:&quot;audio&quot;,&quot;name&quot;:&quot;La historia Detrás De Bohemian Rhapsody&quot;,&quot;publisher&quot;:&quot;Diego Vergara&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/shows\/4fwLva2TaSJZnuviWp5Qka&quot;,&quot;id&quot;:&quot;4fwLva2TaSJZnuviWp5Qka&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/show\/4fwLva2TaSJZnuviWp5Qka&quot;}},{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/92f2393fef0d145fff809a3094a1e38fb18d877a&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ee2ee205266ec890ed84386305637813acdcbebe&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/6221b0715844f4412213ea146796347726788350&quot;,&quot;height&quot;:64}],&quot;languages&quot;:[&quot;en&quot;],&quot;copyrights&quot;:[],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BJ&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CH&quot;,&quot;CL&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KI&quot;,&quot;KN&quot;,&quot;KW&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;TH&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;VC&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;],&quot;description&quot;:&quot;Bohemian Rhapsody  Cover art photo provided by Malte Wingen on Unsplash: https:\/\/unsplash.com\/@maltewingen&quot;,&quot;type&quot;:&quot;show&quot;,&quot;html_description&quot;:&quot;Bohemian Rhapsody &lt;br\/&gt;Cover art photo provided by Malte Wingen on Unsplash: https:\/\/unsplash.com\/&amp;#64;maltewingen&quot;,&quot;uri&quot;:&quot;spotify:show:2giGQTtNRUzIGodv99M11T&quot;,&quot;is_externally_hosted&quot;:false,&quot;total_episodes&quot;:1,&quot;explicit&quot;:false,&quot;media_type&quot;:&quot;audio&quot;,&quot;name&quot;:&quot;Bohemian Rhapsody&quot;,&quot;publisher&quot;:&quot;Amanda Lauren&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/shows\/2giGQTtNRUzIGodv99M11T&quot;,&quot;id&quot;:&quot;2giGQTtNRUzIGodv99M11T&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/show\/2giGQTtNRUzIGodv99M11T&quot;}},{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/0f4446259340d292f3faaa42787b1913add95868&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/da16775e2aca184e8e9f27fe1fb253105f6db556&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/6433d71b17512f30d9d65ae160bb80f9a04eef32&quot;,&quot;height&quot;:64}],&quot;languages&quot;:[&quot;en&quot;],&quot;copyrights&quot;:[],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BJ&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CH&quot;,&quot;CL&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KI&quot;,&quot;KN&quot;,&quot;KW&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;TH&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;VC&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;],&quot;description&quot;:&quot;song by Queen  Cover art photo provided by Erol Ahmed on Unsplash: https:\/\/unsplash.com\/@erol&quot;,&quot;type&quot;:&quot;show&quot;,&quot;html_description&quot;:&quot;song by Queen &lt;br\/&gt;Cover art photo provided by Erol Ahmed on Unsplash: https:\/\/unsplash.com\/&amp;#64;erol&quot;,&quot;uri&quot;:&quot;spotify:show:6px5xuXm2S65chdAGC5TkV&quot;,&quot;is_externally_hosted&quot;:false,&quot;total_episodes&quot;:1,&quot;explicit&quot;:false,&quot;media_type&quot;:&quot;audio&quot;,&quot;name&quot;:&quot;Bohemian Rhapsody Podcast&quot;,&quot;publisher&quot;:&quot;Lauren Keating&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/shows\/6px5xuXm2S65chdAGC5TkV&quot;,&quot;id&quot;:&quot;6px5xuXm2S65chdAGC5TkV&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/show\/6px5xuXm2S65chdAGC5TkV&quot;}},{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab6765630000ba8aaeb52d04f4da4d767c49d0ec&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67656300005f1faeb52d04f4da4d767c49d0ec&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab6765630000f68daeb52d04f4da4d767c49d0ec&quot;,&quot;height&quot;:64}],&quot;languages&quot;:[&quot;en&quot;],&quot;copyrights&quot;:[],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BJ&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CH&quot;,&quot;CL&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KI&quot;,&quot;KN&quot;,&quot;KW&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;TH&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;VC&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;],&quot;description&quot;:&quot;Some pursue creative activities as a hobby and some do it for a living, but no matter the road taken, the need for self-expression is part of being human.  Bohemian Pursuits is a bridge between art and listener. A unique space bringing you stories of art, in its broadest sense. Here, you will find deep conversations about why and how the Bohemians among us choose to express themselves.  Hosted by two creatively inclined curious individuals, Abraham Lukose and Mikhail Charles aka Miksterthecomic, have candid conversations with artists about their art and their journey.&quot;,&quot;type&quot;:&quot;show&quot;,&quot;html_description&quot;:&quot;Some pursue creative activities as a hobby and some do it for a living, but no matter the road taken, the need for self-expression is part of being human.&lt;br\/&gt;Bohemian Pursuits is a bridge between art and listener. A unique space bringing you stories of art, in its broadest sense. Here, you will find deep conversations about why and how the Bohemians among us choose to express themselves.&lt;br\/&gt;Hosted by two creatively inclined curious individuals, Abraham Lukose and Mikhail Charles aka Miksterthecomic, have candid conversations with artists about their art and their journey.&quot;,&quot;uri&quot;:&quot;spotify:show:11fMC0iwiTah2oGLiPhdXo&quot;,&quot;is_externally_hosted&quot;:false,&quot;total_episodes&quot;:20,&quot;explicit&quot;:true,&quot;media_type&quot;:&quot;audio&quot;,&quot;name&quot;:&quot;Bohemian Pursuits&quot;,&quot;publisher&quot;:&quot;Bohemian Pursuits&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/shows\/11fMC0iwiTah2oGLiPhdXo&quot;,&quot;id&quot;:&quot;11fMC0iwiTah2oGLiPhdXo&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/show\/11fMC0iwiTah2oGLiPhdXo&quot;}},{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab6765630000ba8ac90f877ffe97b995cf0a5894&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67656300005f1fc90f877ffe97b995cf0a5894&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab6765630000f68dc90f877ffe97b995cf0a5894&quot;,&quot;height&quot;:64}],&quot;languages&quot;:[&quot;es&quot;],&quot;copyrights&quot;:[],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BJ&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CH&quot;,&quot;CL&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KI&quot;,&quot;KN&quot;,&quot;KW&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;TH&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;VC&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;],&quot;description&quot;:&quot;Top List es un podcast de entrevistas a las personas más destacadas en la industria del Entretenimiento. Todas ellas comparten sus experiencias profesionales y grandes lecciones de vida que estoy seguro te servirán a ti. Este podcast es presentado por Juan Carlos Lazo quien fue Director General de 20th Century Fox México. Juan Carlos fue responsable del lanzamiento de más de 350 películas tales como: Titanic, Avatar, Star Wars, La Era de Hielo, Bohemian Rhapsody y más de 20 películas mexicanas como: Y Tu Mamá También, Arráncame la Vida y Sexo, Pudor y Lágrimas.&quot;,&quot;type&quot;:&quot;show&quot;,&quot;html_description&quot;:&quot;Top List es un podcast de entrevistas a las personas más destacadas en la industria del Entretenimiento. Todas ellas comparten sus experiencias profesionales y grandes lecciones de vida que estoy seguro te servirán a ti. Este podcast es presentado por Juan Carlos Lazo quien fue Director General de 20th Century Fox México. Juan Carlos fue responsable del lanzamiento de más de 350 películas tales como: Titanic, Avatar, Star Wars, La Era de Hielo, Bohemian Rhapsody y más de 20 películas mexicanas como: Y Tu Mamá También, Arráncame la Vida y Sexo, Pudor y Lágrimas.&quot;,&quot;uri&quot;:&quot;spotify:show:5PZwVGJ1Bn4xEmuNJqmzlH&quot;,&quot;is_externally_hosted&quot;:false,&quot;total_episodes&quot;:20,&quot;explicit&quot;:false,&quot;media_type&quot;:&quot;audio&quot;,&quot;name&quot;:&quot;Top List con Juan Carlos Lazo&quot;,&quot;publisher&quot;:&quot;Juan Carlos Lazo&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/shows\/5PZwVGJ1Bn4xEmuNJqmzlH&quot;,&quot;id&quot;:&quot;5PZwVGJ1Bn4xEmuNJqmzlH&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/show\/5PZwVGJ1Bn4xEmuNJqmzlH&quot;}},{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab6765630000ba8a64d93efe98be974ea72db85c&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67656300005f1f64d93efe98be974ea72db85c&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab6765630000f68d64d93efe98be974ea72db85c&quot;,&quot;height&quot;:64}],&quot;languages&quot;:[&quot;fr&quot;],&quot;copyrights&quot;:[],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BJ&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CH&quot;,&quot;CL&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KI&quot;,&quot;KN&quot;,&quot;KW&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;TH&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;VC&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;],&quot;description&quot;:&quot;Tout savoir sur l&#39;enregistrement de Bohemian Rhapsody, titre légendaire du groupe Queen.&quot;,&quot;type&quot;:&quot;show&quot;,&quot;html_description&quot;:&quot;Tout savoir sur l&amp;#39;enregistrement de Bohemian Rhapsody, titre légendaire du groupe Queen.&quot;,&quot;uri&quot;:&quot;spotify:show:3YNKLEIMXTZ36reTB3ozIg&quot;,&quot;is_externally_hosted&quot;:false,&quot;total_episodes&quot;:1,&quot;explicit&quot;:false,&quot;media_type&quot;:&quot;audio&quot;,&quot;name&quot;:&quot;L&#39;enregistrement de Bohemian Rhapsody&quot;,&quot;publisher&quot;:&quot;Eric Coullet&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/shows\/3YNKLEIMXTZ36reTB3ozIg&quot;,&quot;id&quot;:&quot;3YNKLEIMXTZ36reTB3ozIg&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/show\/3YNKLEIMXTZ36reTB3ozIg&quot;}},{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab6765630000ba8af5350e3fce1fcfdffa563613&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67656300005f1ff5350e3fce1fcfdffa563613&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab6765630000f68df5350e3fce1fcfdffa563613&quot;,&quot;height&quot;:64}],&quot;languages&quot;:[&quot;en&quot;],&quot;copyrights&quot;:[],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BJ&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CH&quot;,&quot;CL&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KI&quot;,&quot;KN&quot;,&quot;KW&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;TH&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;VC&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;],&quot;description&quot;:&quot;Seana Barbes is an Astrologer, Spiritual Business Mentor, Founder of The Yoga Business Ascension (YBA), Minnesota Mama, and Married to a Superstar Musician.&quot;,&quot;type&quot;:&quot;show&quot;,&quot;html_description&quot;:&quot;Seana Barbes is an Astrologer, Spiritual Business Mentor, Founder of The Yoga Business Ascension (YBA), Minnesota Mama, and Married to a Superstar Musician.&quot;,&quot;uri&quot;:&quot;spotify:show:4pJEhPujv4gOQEmW5qhGfq&quot;,&quot;is_externally_hosted&quot;:false,&quot;total_episodes&quot;:157,&quot;explicit&quot;:true,&quot;media_type&quot;:&quot;audio&quot;,&quot;name&quot;:&quot;The Bohemian Blonde Podcast&quot;,&quot;publisher&quot;:&quot;Seana Barbes&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/shows\/4pJEhPujv4gOQEmW5qhGfq&quot;,&quot;id&quot;:&quot;4pJEhPujv4gOQEmW5qhGfq&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/show\/4pJEhPujv4gOQEmW5qhGfq&quot;}},{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/fa3c3069f75275afc64cefa7070ec1aa0cb21261&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/732886bc3acce9387c5bb6be7538bf425b8b8a99&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/5aa776d916f0207aedd88a6eddb7385a3b3fe278&quot;,&quot;height&quot;:64}],&quot;languages&quot;:[&quot;en&quot;],&quot;copyrights&quot;:[],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BJ&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CH&quot;,&quot;CL&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KI&quot;,&quot;KN&quot;,&quot;KW&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;TH&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;VC&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;],&quot;description&quot;:&quot;If you&#39;re looking for a pod that discusses movies like Bohemian Rhapsody, Purple Rain and the occasional musical, you&#39;ve come to the right place!&quot;,&quot;type&quot;:&quot;show&quot;,&quot;html_description&quot;:&quot;If you&amp;#39;re looking for a pod that discusses movies like Bohemian Rhapsody, Purple Rain and the occasional musical, you&amp;#39;ve come to the right place!&quot;,&quot;uri&quot;:&quot;spotify:show:02uKT8b5bArFVsP9nDtYsw&quot;,&quot;is_externally_hosted&quot;:false,&quot;total_episodes&quot;:45,&quot;explicit&quot;:true,&quot;media_type&quot;:&quot;audio&quot;,&quot;name&quot;:&quot;Music Movies Podcast&quot;,&quot;publisher&quot;:&quot;Ben Young&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/shows\/02uKT8b5bArFVsP9nDtYsw&quot;,&quot;id&quot;:&quot;02uKT8b5bArFVsP9nDtYsw&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/show\/02uKT8b5bArFVsP9nDtYsw&quot;}},{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/8d2451793d0a095156726028be05df26a81596ae&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/eace162838b915b61872db831d038b1014304d18&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/b1805133fc9b981ec689ab94b5c2810d0dcf5284&quot;,&quot;height&quot;:64}],&quot;languages&quot;:[&quot;fr&quot;],&quot;copyrights&quot;:[],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BJ&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CH&quot;,&quot;CL&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KI&quot;,&quot;KN&quot;,&quot;KW&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;TH&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;VC&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;],&quot;description&quot;:&quot;Les aventures de Julia et Alexis lors d\u2019un tour du monde dans plus de 17 destinations sur plus de 400 jours. Aventures et mésaventures nous vous racontons l\u2019ensemble de péripéties dans ce podcast.&quot;,&quot;type&quot;:&quot;show&quot;,&quot;html_description&quot;:&quot;Les aventures de Julia et Alexis lors d\u2019un tour du monde dans plus de 17 destinations sur plus de 400 jours. Aventures et mésaventures nous vous racontons l\u2019ensemble de péripéties dans ce podcast.&quot;,&quot;uri&quot;:&quot;spotify:show:2CSSo8GINMOUVXSbIW2wDv&quot;,&quot;is_externally_hosted&quot;:false,&quot;total_episodes&quot;:10,&quot;explicit&quot;:false,&quot;media_type&quot;:&quot;audio&quot;,&quot;name&quot;:&quot;Bohemian Drifters&quot;,&quot;publisher&quot;:&quot;Bohemian Drifters&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/shows\/2CSSo8GINMOUVXSbIW2wDv&quot;,&quot;id&quot;:&quot;2CSSo8GINMOUVXSbIW2wDv&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/show\/2CSSo8GINMOUVXSbIW2wDv&quot;}},{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/b54835761d4ccde65a6302beb7a4d8cce2206968&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/6a740aa3580b13b6797515e8ab78be9578bf7d91&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/1759eb1b466feb817c41f9b6236c6768cd71075e&quot;,&quot;height&quot;:64}],&quot;languages&quot;:[&quot;en&quot;],&quot;copyrights&quot;:[],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BJ&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CH&quot;,&quot;CL&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KI&quot;,&quot;KN&quot;,&quot;KW&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;TH&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;VC&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;],&quot;description&quot;:&quot;A podcast about everything and nothing wrapped up in 10 minutes cause there\u2019s only one host and he\u2019s stringing it all together as he goes. (Subject to guest co-hosting) We seek the answer to the question: \u201CWhat is the Bohemian Rhapsody of our generation?\u201D&quot;,&quot;type&quot;:&quot;show&quot;,&quot;html_description&quot;:&quot;A podcast about everything and nothing wrapped up in 10 minutes cause there\u2019s only one host and he\u2019s stringing it all together as he goes. (Subject to guest co-hosting) We seek the answer to the question: \u201CWhat is the Bohemian Rhapsody of our generation?\u201D&quot;,&quot;uri&quot;:&quot;spotify:show:2lVDgpEoUweFgDByQ3Ocpd&quot;,&quot;is_externally_hosted&quot;:false,&quot;total_episodes&quot;:122,&quot;explicit&quot;:false,&quot;media_type&quot;:&quot;audio&quot;,&quot;name&quot;:&quot;Beyond the Flesh Curtains&quot;,&quot;publisher&quot;:&quot;Andrew&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/shows\/2lVDgpEoUweFgDByQ3Ocpd&quot;,&quot;id&quot;:&quot;2lVDgpEoUweFgDByQ3Ocpd&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/show\/2lVDgpEoUweFgDByQ3Ocpd&quot;}},{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab6765630000ba8ae137d5c059d5e5bf33225151&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67656300005f1fe137d5c059d5e5bf33225151&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab6765630000f68de137d5c059d5e5bf33225151&quot;,&quot;height&quot;:64}],&quot;languages&quot;:[&quot;en&quot;],&quot;copyrights&quot;:[],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BJ&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CH&quot;,&quot;CL&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KI&quot;,&quot;KN&quot;,&quot;KW&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;TH&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;VC&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;],&quot;description&quot;:&quot;Since 2014, we have been telling stories intentionally designed to inspire and build community. Our blog, The Bohemian Princess Journal, has spread globally and is read in over 40 countries. This podcast is an extension of the blog, and season 2 focuses on telling stories of writers and artists locally, nationally, and internationally. Come join us on the adventure!&quot;,&quot;type&quot;:&quot;show&quot;,&quot;html_description&quot;:&quot;Since 2014, we have been telling stories intentionally designed to inspire and build community. Our blog, The Bohemian Princess Journal, has spread globally and is read in over 40 countries. This podcast is an extension of the blog, and season 2 focuses on telling stories of writers and artists locally, nationally, and internationally. Come join us on the adventure!&quot;,&quot;uri&quot;:&quot;spotify:show:4KLkzZ2YLoW7dxGlVtMTAQ&quot;,&quot;is_externally_hosted&quot;:false,&quot;total_episodes&quot;:12,&quot;explicit&quot;:false,&quot;media_type&quot;:&quot;audio&quot;,&quot;name&quot;:&quot;The Bohemian Princess Podcast&quot;,&quot;publisher&quot;:&quot;Rebecca J. Whitman&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/shows\/4KLkzZ2YLoW7dxGlVtMTAQ&quot;,&quot;id&quot;:&quot;4KLkzZ2YLoW7dxGlVtMTAQ&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/show\/4KLkzZ2YLoW7dxGlVtMTAQ&quot;}},{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab6765630000ba8ad498c98d695de89daf57378f&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67656300005f1fd498c98d695de89daf57378f&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab6765630000f68dd498c98d695de89daf57378f&quot;,&quot;height&quot;:64}],&quot;languages&quot;:[&quot;pl&quot;],&quot;copyrights&quot;:[],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BJ&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CH&quot;,&quot;CL&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KI&quot;,&quot;KN&quot;,&quot;KW&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;TH&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;VC&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;],&quot;description&quot;:&quot;\&quot;Muzyczne legendy w filmowych odsłonach\&quot; to wyjątkowy podcast, dzięki któremu poznacie szalone życie niezwykłego wokalisty grupy Queen - Freddiego Mercurego. Dowiecie się o wszystkich, najciekawszych szczegółach powstania filmu \&quot;Bohemian Rhapsody\&quot;, a także dodacie do swojej listy ulubionych filmów muzycznych kilka najważniejszych pozycji w historii kina! Na tę niezwykłą, muzyczną przygodę zaprasza Mateusz Opyrchał.&quot;,&quot;type&quot;:&quot;show&quot;,&quot;html_description&quot;:&quot;&amp;#34;Muzyczne legendy w filmowych odsłonach&amp;#34; to wyjątkowy podcast, dzięki któremu poznacie szalone życie niezwykłego wokalisty grupy Queen - Freddiego Mercurego. Dowiecie się o wszystkich, najciekawszych szczegółach powstania filmu &amp;#34;Bohemian Rhapsody&amp;#34;, a także dodacie do swojej listy ulubionych filmów muzycznych kilka najważniejszych pozycji w historii kina! Na tę niezwykłą, muzyczną przygodę zaprasza Mateusz Opyrchał.&quot;,&quot;uri&quot;:&quot;spotify:show:6mBNduRGYMu2eTuQfklKZU&quot;,&quot;is_externally_hosted&quot;:false,&quot;total_episodes&quot;:3,&quot;explicit&quot;:false,&quot;media_type&quot;:&quot;audio&quot;,&quot;name&quot;:&quot;Muzyczne legendy w filmowych odsłonach&quot;,&quot;publisher&quot;:&quot;RMF FM&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/shows\/6mBNduRGYMu2eTuQfklKZU&quot;,&quot;id&quot;:&quot;6mBNduRGYMu2eTuQfklKZU&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/show\/6mBNduRGYMu2eTuQfklKZU&quot;}},{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab6765630000ba8ab49d63ec8587fedaac5a36d5&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67656300005f1fb49d63ec8587fedaac5a36d5&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab6765630000f68db49d63ec8587fedaac5a36d5&quot;,&quot;height&quot;:64}],&quot;languages&quot;:[&quot;es&quot;],&quot;copyrights&quot;:[],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KW&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;description&quot;:&quot;Pequeños cuentos, poemas, relatos o fragmentos que me gustaría leerte a vos con todo mi amor por el resto de nuestra existencia. Que las palabras nos conecten, justo como lo hace la música. For M, my lover&quot;,&quot;type&quot;:&quot;show&quot;,&quot;html_description&quot;:&quot;Pequeños cuentos, poemas, relatos o fragmentos que me gustaría leerte a vos con todo mi amor por el resto de nuestra existencia. Que las palabras nos conecten, justo como lo hace la música. For M, my lover&quot;,&quot;uri&quot;:&quot;spotify:show:25Pv8utbEzuLWLoDjasb6Y&quot;,&quot;is_externally_hosted&quot;:false,&quot;total_episodes&quot;:4,&quot;explicit&quot;:false,&quot;media_type&quot;:&quot;audio&quot;,&quot;name&quot;:&quot;Bohemian Love&quot;,&quot;publisher&quot;:&quot;Kero Capisci&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/shows\/25Pv8utbEzuLWLoDjasb6Y&quot;,&quot;id&quot;:&quot;25Pv8utbEzuLWLoDjasb6Y&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/show\/25Pv8utbEzuLWLoDjasb6Y&quot;}},{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab6765630000ba8ad0ec8a58d7c1f61db9d99e44&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67656300005f1fd0ec8a58d7c1f61db9d99e44&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab6765630000f68dd0ec8a58d7c1f61db9d99e44&quot;,&quot;height&quot;:64}],&quot;languages&quot;:[&quot;en-GB&quot;],&quot;copyrights&quot;:[],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BJ&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CH&quot;,&quot;CL&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KI&quot;,&quot;KN&quot;,&quot;KW&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;TH&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;VC&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;],&quot;description&quot;:&quot;Space Oddity, Bohemian Rhapsody, Smells Like Teen Spirit, Hotel California. Iconic songs.  But they, like all songs, had to start somewhere. With a demo. Imagine being able to hear the first ever attempt at recording these songs.  Delve into the Demo is a weekly bitesize deep-dive into the world\u2019s best known songs to uncover how they were conceived, inspired, written and recorded.  The best part is, with Spotify, you\u2019ll be able to HEAR these rare demo recordings which amazingly stood the test of time, right within the podcast.&quot;,&quot;type&quot;:&quot;show&quot;,&quot;html_description&quot;:&quot;Space Oddity, Bohemian Rhapsody, Smells Like Teen Spirit, Hotel California. Iconic songs.&lt;br\/&gt;But they, like all songs, had to start somewhere. With a demo. Imagine being able to hear the first ever attempt at recording these songs.&lt;br\/&gt;Delve into the Demo is a weekly bitesize deep-dive into the world\u2019s best known songs to uncover how they were conceived, inspired, written and recorded.&lt;br\/&gt;The best part is, with Spotify, you\u2019ll be able to HEAR these rare demo recordings which amazingly stood the test of time, right within the podcast.&quot;,&quot;uri&quot;:&quot;spotify:show:0OvJhhiZ4ogO0pydSuylkk&quot;,&quot;is_externally_hosted&quot;:false,&quot;total_episodes&quot;:1,&quot;explicit&quot;:false,&quot;media_type&quot;:&quot;audio&quot;,&quot;name&quot;:&quot;Delve into the Demo&quot;,&quot;publisher&quot;:&quot;Adam English&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/shows\/0OvJhhiZ4ogO0pydSuylkk&quot;,&quot;id&quot;:&quot;0OvJhhiZ4ogO0pydSuylkk&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/show\/0OvJhhiZ4ogO0pydSuylkk&quot;}},{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/767698681086a655e0e3bc83ec01fb0b8efde96a&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/eda3dec9379a6cdd450fe256abb6510ec58e52d3&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/053b09ad762175611595a4eaf82a385c4fd92537&quot;,&quot;height&quot;:64}],&quot;languages&quot;:[&quot;en&quot;],&quot;copyrights&quot;:[],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KW&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;description&quot;:&quot;erman yaşar bohemian rhapsody (cover) tw: @kdninburneri&quot;,&quot;type&quot;:&quot;show&quot;,&quot;html_description&quot;:&quot;erman yaşar bohemian rhapsody (cover) tw: &amp;#64;kdninburneri&quot;,&quot;uri&quot;:&quot;spotify:show:5uD2yt1W3HoEKJWt56TyhN&quot;,&quot;is_externally_hosted&quot;:false,&quot;total_episodes&quot;:1,&quot;explicit&quot;:false,&quot;media_type&quot;:&quot;audio&quot;,&quot;name&quot;:&quot;Medya Devinden Nağmeler&quot;,&quot;publisher&quot;:&quot;Emre Zengin&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/shows\/5uD2yt1W3HoEKJWt56TyhN&quot;,&quot;id&quot;:&quot;5uD2yt1W3HoEKJWt56TyhN&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/show\/5uD2yt1W3HoEKJWt56TyhN&quot;}},{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/f0b5569848eb4f8643ad0ddba272e4bad907e848&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/fd31df4bb0452be9ce936358cf7b98d782f87d3b&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/4d1c806dab934a12d0f6402bd5da674499d24e3e&quot;,&quot;height&quot;:64}],&quot;languages&quot;:[&quot;en&quot;],&quot;copyrights&quot;:[],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KW&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;description&quot;:&quot;Welcome to Bohemian Geek Studies, the place where ravenous readers and culture consumers gather together to enjoy listening to two nerdy knights explore popular literature in an absurd level of detail and dorkiness! Hosts Sara and Will cover spoilers and fan theories while drawing connections to some of their favorite books, shows, and movies. While adult themes and a PG-13 joke or two may fly (just like in the covered books), this podcast is designed to be enjoyed by yourself or with friends and family for shared laughter and discussion.&quot;,&quot;type&quot;:&quot;show&quot;,&quot;html_description&quot;:&quot;Welcome to Bohemian Geek Studies, the place where ravenous readers and culture consumers gather together to enjoy listening to two nerdy knights explore popular literature in an absurd level of detail and dorkiness! Hosts Sara and Will cover spoilers and fan theories while drawing connections to some of their favorite books, shows, and movies. While adult themes and a PG-13 joke or two may fly (just like in the covered books), this podcast is designed to be enjoyed by yourself or with friends and family for shared laughter and discussion.&quot;,&quot;uri&quot;:&quot;spotify:show:0uyHXP8gt531faYcj5od9f&quot;,&quot;is_externally_hosted&quot;:false,&quot;total_episodes&quot;:119,&quot;explicit&quot;:false,&quot;media_type&quot;:&quot;audio&quot;,&quot;name&quot;:&quot;Bohemian Geek Studies&quot;,&quot;publisher&quot;:&quot;The BGS Crew&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/shows\/0uyHXP8gt531faYcj5od9f&quot;,&quot;id&quot;:&quot;0uyHXP8gt531faYcj5od9f&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/show\/0uyHXP8gt531faYcj5od9f&quot;}},{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab6765630000ba8a14210f5c70ec9ea06679df8b&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67656300005f1f14210f5c70ec9ea06679df8b&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab6765630000f68d14210f5c70ec9ea06679df8b&quot;,&quot;height&quot;:64}],&quot;languages&quot;:[&quot;de&quot;],&quot;copyrights&quot;:[],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KW&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;description&quot;:&quot;Er gehört zur Comedy-Riege Deutschlands, hat eine eigene Fernsehshow, seine Bühnenprogramme sind ausverkauft. Er ist genialer Poetry-Slamer, Bestseller-Autor und Vorleser sowie Gewinner der 1. Staffel der Mega-Game-Show \u201ELOL\u201C \u2026 Jetzt schlägt er ein neues Kapitel auf: \u201ESträter: Musik  − Der Soundtrack eines Lebens\u201C, mit Torsten Sträter und Jens Herrmann. Es ist die erste eigene Show des Comedians im deutschen Radio!  Monatlich plaudern sich dann Torsten Sträter und Chefredakteur Jens Herrmann drei Stunden lang mit breiter Musik-Palette durch \u201Egemeinsame\u201C Jahrzehnte, denn beide sind eine Generation. \u201EAnhand von diversen Songs arbeiten wir uns dann mal an meinem Leben ab,\u201C so der Kabarettist. Dazu gibt\u2019s vom Wortwitz-Akrobaten die \u201ESträtersche-Einordnung\u201C − quasi (s)eine Geschichte dazu. Da wird das Fass zu den gruseligsten Serien mit den besten Soundtracks aufgemacht, werden Hits wie der für ein Bud Spencer und Terence Hill-Spektakel von Oliver Onions komponierte \u201EBulldozer\u201C gespielt oder coole Klassiker wie \u201ENight Fever\u201C von den Bee Gees seziert \u2026 alles dabei. Und Hörer, die erst mit Kanye West eingestiegen sind, erfahren: Es gab auch schon in Sträters Kinder- und Jugendzeit Mukke \u2013 gewissermaßen die Ursprünge der Popmusik.  Für den Comedian erfüllt sich mit der eigenen Radioshow ein Kindheitstraum. Bei Aufnahmen zum \u201EBB RADIO-Mitternachtstalk\u201C, dem erfolgreichen Podcast, erzählte Sträter von seiner (heimlichen) Leidenschaft. \u201EEin sperriges Nachttalk-Radio zu machen, Leute in den Schlaf zu labern, dazu Kompositionen von Bach, softe Filmtracks oder krachend-laut Bohemian Rhapsody zu spielen, wäre toll\u201C, so Sträter. Und weil es mit den beiden einfach lief, beschloss man spontan: \u201EStochern wir nicht lange rum, rocken wir das Ding!\u201C  Zu hören auch auf allen UKW-Frequenzen, DAB+, BB RADIO-App, Livestream www.bbradio.de und als Podcast.&quot;,&quot;type&quot;:&quot;show&quot;,&quot;html_description&quot;:&quot;Er gehört zur Comedy-Riege Deutschlands, hat eine eigene Fernsehshow, seine Bühnenprogramme sind ausverkauft. Er ist genialer Poetry-Slamer, Bestseller-Autor und Vorleser sowie Gewinner der 1. Staffel der Mega-Game-Show \u201ELOL\u201C \u2026 Jetzt schlägt er ein neues Kapitel auf: \u201ESträter: Musik  − Der Soundtrack eines Lebens\u201C, mit Torsten Sträter und Jens Herrmann. Es ist die erste eigene Show des Comedians im deutschen Radio!&lt;br\/&gt;Monatlich plaudern sich dann Torsten Sträter und Chefredakteur Jens Herrmann drei Stunden lang mit breiter Musik-Palette durch \u201Egemeinsame\u201C Jahrzehnte, denn beide sind eine Generation. \u201EAnhand von diversen Songs arbeiten wir uns dann mal an meinem Leben ab,\u201C so der Kabarettist. Dazu gibt\u2019s vom Wortwitz-Akrobaten die \u201ESträtersche-Einordnung\u201C − quasi (s)eine Geschichte dazu. Da wird das Fass zu den gruseligsten Serien mit den besten Soundtracks aufgemacht, werden Hits wie der für ein Bud Spencer und Terence Hill-Spektakel von Oliver Onions komponierte \u201EBulldozer\u201C gespielt oder coole Klassiker wie \u201ENight Fever\u201C von den Bee Gees seziert \u2026 alles dabei. Und Hörer, die erst mit Kanye West eingestiegen sind, erfahren: Es gab auch schon in Sträters Kinder- und Jugendzeit Mukke \u2013 gewissermaßen die Ursprünge der Popmusik.&lt;br\/&gt;Für den Comedian erfüllt sich mit der eigenen Radioshow ein Kindheitstraum. Bei Aufnahmen zum \u201EBB RADIO-Mitternachtstalk\u201C, dem erfolgreichen Podcast, erzählte Sträter von seiner (heimlichen) Leidenschaft. \u201EEin sperriges Nachttalk-Radio zu machen, Leute in den Schlaf zu labern, dazu Kompositionen von Bach, softe Filmtracks oder krachend-laut Bohemian Rhapsody zu spielen, wäre toll\u201C, so Sträter. Und weil es mit den beiden einfach lief, beschloss man spontan: \u201EStochern wir nicht lange rum, rocken wir das Ding!\u201C&lt;br\/&gt;Zu hören auch auf allen UKW-Frequenzen, DAB&amp;#43;, BB RADIO-App, Livestream www.bbradio.de und als Podcast.&quot;,&quot;uri&quot;:&quot;spotify:show:0IyRPRAAsn0hnoCDB2jzBg&quot;,&quot;is_externally_hosted&quot;:false,&quot;total_episodes&quot;:8,&quot;explicit&quot;:false,&quot;media_type&quot;:&quot;audio&quot;,&quot;name&quot;:&quot;Sträter: Musik −\u201EDer Soundtrack eines Lebens\u201C&quot;,&quot;publisher&quot;:&quot;Torsten Sträter und Jens Herrmann&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/shows\/0IyRPRAAsn0hnoCDB2jzBg&quot;,&quot;id&quot;:&quot;0IyRPRAAsn0hnoCDB2jzBg&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/show\/0IyRPRAAsn0hnoCDB2jzBg&quot;}},{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/fd05aca33123a08b350a1e0fb7bb3210236d6c63&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/a5b35cc4477ad00c74f33118249b710c5ca507c2&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/9cf7488e6b15f85d90d788bba6ca50a01b3fb7e6&quot;,&quot;height&quot;:64}],&quot;languages&quot;:[&quot;en&quot;],&quot;copyrights&quot;:[],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KW&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;description&quot;:&quot;A sci fi adventure with everything from cyborgs to psyonics.&quot;,&quot;type&quot;:&quot;show&quot;,&quot;html_description&quot;:&quot;A sci fi adventure with everything from cyborgs to psyonics.&quot;,&quot;uri&quot;:&quot;spotify:show:6gJT8clepr30TfSOQedYJp&quot;,&quot;is_externally_hosted&quot;:false,&quot;total_episodes&quot;:58,&quot;explicit&quot;:true,&quot;media_type&quot;:&quot;audio&quot;,&quot;name&quot;:&quot;Bohemian Galaxy&quot;,&quot;publisher&quot;:&quot;Nick Nelson&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/shows\/6gJT8clepr30TfSOQedYJp&quot;,&quot;id&quot;:&quot;6gJT8clepr30TfSOQedYJp&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/show\/6gJT8clepr30TfSOQedYJp&quot;}},{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab6765630000ba8aac5ccaeeb4ba2424168f71a2&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67656300005f1fac5ccaeeb4ba2424168f71a2&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab6765630000f68dac5ccaeeb4ba2424168f71a2&quot;,&quot;height&quot;:64}],&quot;languages&quot;:[&quot;en&quot;],&quot;copyrights&quot;:[],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KW&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;description&quot;:&quot;Designing Hollywood Podcast is dedicated to \&quot;All Things Movies&#39; and all film industry professionals!   Created &amp; Founded By  Designing Hollywood LLC  High profile host&#39;s and guest&#39;s from costume designers, directors, producers, writers, actors &amp; agents in the industry! Excited to be bringing you some fascinating (Q&amp;A) behind the scenes stories and informative educational episodes!   Designing Hollywood collaboration with Costume Designer Marilyn Vance. Marilyn&#39;s award winning costume designs have appeared in over 62 feature films, television films and mini-series. Vance set the trends of the time with her character designed portrayals in iconic films such as Fast Times at Ridgemont High, The Breakfast Club, Ferris Bueller&#39;s Day Off, Pretty in Pink and Pretty Woman. Marilyn was also the first female to costume design for the action genre, designing costumes for iconic action blockbusters like 48 hours, Die Hard 1 &amp; 2, The Untouchables, Predator 1 &amp; 2, Time Cop &amp; Road House.  Host Robert Meyer Burnett is an American filmmaker, DVD producer and, online film pundit and YouTuber. Burnett directed Free Enterprise and the short film The Sacred Fire. He has also edited over 10 feature films, and worked as a Star Trek consultant for Viacom Interactive and Paramount Parks&#39; Star Trek: The Experience located at the Las Vegas Hilton. Burnett has twice been a guest of honor at the science, science fiction, and fantasy convention, convergence.  Host concept artist Phillip Boutte Jr. Phillip is known for his work as assistant costume designer for Mattel and Netflix\u2019s upcoming \u201CMasters of the Universe,\u201D has also worked tirelessly for well over a decade to establish himself as a concept artist whom costume designers and studios are eager to work with. With credits such as \u201CBlack Panther,\u201D \u201CBohemian Rhapsody\u201D and \u201CCaptain Marvel,\u201D to name just three, Boutte has become one of the few people of color in a field in which directors and star talent can step in and make a difference by championing inclusion. Boutte recently worked on \u201CMaleficent: Mistress of Evil,\u201D with costume designer Ellen Mirojnick tapping him for concept art.  Founder CEO\/Producer Martika Ibarra &amp; The Designing Hollywood Team  Subscribe to Designing Hollywood Podcast for weekly episodes! Find Us On Youtube Channel, Spotify, Itunes, Deezer &amp; Stitcher!  Also on Facebook &amp; Instagram under Designing Hollywood  Founded in May 2020 By Designing Hollywood LLC&quot;,&quot;type&quot;:&quot;show&quot;,&quot;html_description&quot;:&quot;Designing Hollywood Podcast is dedicated to &amp;#34;All Things Movies&amp;#39; and all film industry professionals! &lt;br\/&gt;Created &amp;amp; Founded By  Designing Hollywood LLC&lt;br\/&gt;High profile host&amp;#39;s and guest&amp;#39;s from costume designers, directors, producers, writers, actors &amp;amp; agents in the industry! Excited to be bringing you some fascinating (Q&amp;amp;A) behind the scenes stories and informative educational episodes! &lt;br\/&gt;Designing Hollywood collaboration with Costume Designer Marilyn Vance. Marilyn&amp;#39;s award winning costume designs have appeared in over 62 feature films, television films and mini-series. Vance set the trends of the time with her character designed portrayals in iconic films such as Fast Times at Ridgemont High, The Breakfast Club, Ferris Bueller&amp;#39;s Day Off, Pretty in Pink and Pretty Woman. Marilyn was also the first female to costume design for the action genre, designing costumes for iconic action blockbusters like 48 hours, Die Hard 1 &amp;amp; 2, The Untouchables, Predator 1 &amp;amp; 2, Time Cop &amp;amp; Road House.&lt;br\/&gt;Host Robert Meyer Burnett is an American filmmaker, DVD producer and, online film pundit and YouTuber. Burnett directed Free Enterprise and the short film The Sacred Fire. He has also edited over 10 feature films, and worked as a Star Trek consultant for Viacom Interactive and Paramount Parks&amp;#39; Star Trek: The Experience located at the Las Vegas Hilton.&lt;br\/&gt;Burnett has twice been a guest of honor at the science, science fiction, and fantasy convention, convergence.&lt;br\/&gt;Host concept artist Phillip Boutte Jr. Phillip is known for his work as assistant costume designer for Mattel and Netflix\u2019s upcoming \u201CMasters of the Universe,\u201D has also worked tirelessly for well over a decade to establish himself as a concept artist whom costume designers and studios are eager to work with.&lt;br\/&gt;With credits such as \u201CBlack Panther,\u201D \u201CBohemian Rhapsody\u201D and \u201CCaptain Marvel,\u201D to name just three, Boutte has become one of the few people of color in a field in which directors and star talent can step in and make a difference by championing inclusion. Boutte recently worked on \u201CMaleficent: Mistress of Evil,\u201D with costume designer Ellen Mirojnick tapping him for concept art.&lt;br\/&gt;Founder CEO\/Producer Martika Ibarra &amp;amp; The Designing Hollywood Team&lt;br\/&gt;Subscribe to Designing Hollywood Podcast for weekly episodes!&lt;br\/&gt;Find Us On Youtube Channel, Spotify, Itunes, Deezer &amp;amp; Stitcher!&lt;br\/&gt;Also on Facebook &amp;amp; Instagram under Designing Hollywood&lt;br\/&gt;Founded in May 2020 By Designing Hollywood LLC&quot;,&quot;uri&quot;:&quot;spotify:show:4Ms2kNGl0RFuyj71cbEHfa&quot;,&quot;is_externally_hosted&quot;:false,&quot;total_episodes&quot;:68,&quot;explicit&quot;:false,&quot;media_type&quot;:&quot;audio&quot;,&quot;name&quot;:&quot;Designing Hollywood Podcast&quot;,&quot;publisher&quot;:&quot;Designing Hollywood&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/shows\/4Ms2kNGl0RFuyj71cbEHfa&quot;,&quot;id&quot;:&quot;4Ms2kNGl0RFuyj71cbEHfa&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/show\/4Ms2kNGl0RFuyj71cbEHfa&quot;}},{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab6765630000ba8a857e5e7defa399c0ef55a346&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67656300005f1f857e5e7defa399c0ef55a346&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab6765630000f68d857e5e7defa399c0ef55a346&quot;,&quot;height&quot;:64}],&quot;languages&quot;:[&quot;en&quot;],&quot;copyrights&quot;:[],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BJ&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CH&quot;,&quot;CL&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KI&quot;,&quot;KN&quot;,&quot;KW&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;TH&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;VC&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;],&quot;description&quot;:&quot;A Self- expanding Podcast, where we learn to tap into our inner badass, heal our limiting beliefs, and transform into our highest, most authentic version of ourselves.   This community is for the souls dancing through this life experience ready to embody all that YOU are. YOU are inherently worthy of all the love, all the grace, growth, strength, and expansion that is right at your fingertips.   I am here to guide you to see your full potential, light your inner fire, and shine your unique light. I will help you listen deeper to your beautiful intuition.   You, my love, are meant to be here.&quot;,&quot;type&quot;:&quot;show&quot;,&quot;html_description&quot;:&quot;A Self- expanding Podcast, where we learn to tap into our inner badass, heal our limiting beliefs, and transform into our highest, most authentic version of ourselves. &lt;br\/&gt;This community is for the souls dancing through this life experience ready to embody all that YOU are. YOU are inherently worthy of all the love, all the grace, growth, strength, and expansion that is right at your fingertips. &lt;br\/&gt;I am here to guide you to see your full potential, light your inner fire, and shine your unique light. I will help you listen deeper to your beautiful intuition. &lt;br\/&gt;You, my love, are meant to be here.&quot;,&quot;uri&quot;:&quot;spotify:show:6gXYNscA6kDBF5GruZ9985&quot;,&quot;is_externally_hosted&quot;:false,&quot;total_episodes&quot;:27,&quot;explicit&quot;:false,&quot;media_type&quot;:&quot;audio&quot;,&quot;name&quot;:&quot;The Badass Bohemian Podcast &quot;,&quot;publisher&quot;:&quot;Madeline MacDonald &quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/shows\/6gXYNscA6kDBF5GruZ9985&quot;,&quot;id&quot;:&quot;6gXYNscA6kDBF5GruZ9985&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/show\/6gXYNscA6kDBF5GruZ9985&quot;}}]}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print response.id</span>
+      </div>
+    </div>
+    <div class="time-cell passed">9</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.34">11:38:28.666 [print] null 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

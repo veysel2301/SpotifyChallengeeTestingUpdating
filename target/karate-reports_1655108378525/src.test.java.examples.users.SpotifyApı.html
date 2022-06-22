@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.examples.users.SpotifyApı</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">3</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-06-13 11:15:38 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:24]"><span>[1:24]</span> <span>Get Playlist User</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:30]"><span>[2:30]</span> <span>Create Playlist</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3:36]"><span>[3:36]</span> <span>Search Bohemian Rhapsody</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/examples/users/SpotifyApı.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Apı Testing</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:24]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:24]</span>
+                <span class="scenario-name">Get Playlist User</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>929</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:24]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:24]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlHome = &#39;https://open.spotify.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.3">11:15:36.991 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:24]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userid = &#39;hd5mvu4goazdxz6jzzcl31q5j&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:24]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def requestbody =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">28</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.5">{
+ &quot;name&quot;: &quot;MentorlabsChallenge&quot;,
+ &quot;description&quot;: &quot;New playlist description&quot;,
+ &quot;public&quot;: false
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:24]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref bg-step">13</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def requestSearchBody =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.13">{&quot;href&quot;: &quot;https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d&quot;,
+           &quot;id&quot;: &quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,
+           &quot;name&quot;: &quot;Queen&quot;,
+           &quot;type&quot;: &quot;artist&quot;,
+           &quot;uri&quot;: &quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;
+         }</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.25">
+      <div class="step-ref passed">25</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://api.spotify.com/v1/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/me&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = &#39;Bearer BQB2PpsY3Mz8I9Lsd91mPWAnkvHa0leeWD-oiyWoqyyzs0z6kk8RwEQ1FNNHTIJ67C6AdWopkeTSeQESFEPD9Gn1EotZjPZJwrzCKILSMcTDauxcBDuOxNFfCQVV3XI8Wxjw9zJvZDPoRoiqCUazgW4dknTPXKusKhlM3YMZskm0SV7Gs98pyeT67LumKQ-Q7JFT7pr9uLkwMx9aS0Sjv6U_4uRgMbcdDIHeKxH0VYkzVRC2o3Jvd_rOZ-BmjVOmHyo8Rw90SH4APp6yUtjSADX54IdIKkOE&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">894</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.28">11:15:37.444 request:
+1 &gt; GET https://api.spotify.com/v1/me
+1 &gt; Authorization: Bearer BQB2PpsY3Mz8I9Lsd91mPWAnkvHa0leeWD-oiyWoqyyzs0z6kk8RwEQ1FNNHTIJ67C6AdWopkeTSeQESFEPD9Gn1EotZjPZJwrzCKILSMcTDauxcBDuOxNFfCQVV3XI8Wxjw9zJvZDPoRoiqCUazgW4dknTPXKusKhlM3YMZskm0SV7Gs98pyeT67LumKQ-Q7JFT7pr9uLkwMx9aS0Sjv6U_4uRgMbcdDIHeKxH0VYkzVRC2o3Jvd_rOZ-BmjVOmHyo8Rw90SH4APp6yUtjSADX54IdIKkOE
+1 &gt; Host: api.spotify.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_331)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+11:15:37.944 response time in milliseconds: 500
+1 &lt; 200
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; cache-control: private, max-age=0
+1 &lt; vary: Authorization
+1 &lt; x-robots-tag: noindex, nofollow
+1 &lt; access-control-allow-origin: *
+1 &lt; access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+1 &lt; access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+1 &lt; access-control-allow-credentials: true
+1 &lt; access-control-max-age: 604800
+1 &lt; strict-transport-security: max-age=31536000
+1 &lt; x-content-type-options: nosniff
+1 &lt; date: Mon, 13 Jun 2022 08:15:38 GMT
+1 &lt; server: envoy
+1 &lt; Via: HTTP/2 edgeproxy, 1.1 google
+1 &lt; Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+1 &lt; Transfer-Encoding: chunked
+{&quot;country&quot;:&quot;TR&quot;,&quot;images&quot;:[],&quot;product&quot;:&quot;open&quot;,&quot;followers&quot;:{&quot;total&quot;:0,&quot;href&quot;:null},&quot;explicit_content&quot;:{&quot;filter_locked&quot;:false,&quot;filter_enabled&quot;:false},&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/users\/hd5mvu4goazdxz6jzzcl31q5j&quot;,&quot;id&quot;:&quot;hd5mvu4goazdxz6jzzcl31q5j&quot;,&quot;display_name&quot;:&quot;Veysel&quot;,&quot;type&quot;:&quot;user&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/user\/hd5mvu4goazdxz6jzzcl31q5j&quot;},&quot;uri&quot;:&quot;spotify:user:hd5mvu4goazdxz6jzzcl31q5j&quot;,&quot;email&quot;:&quot;veyseloner23@gmail.com&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:30]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:30]</span>
+                <span class="scenario-name">Create Playlist</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>487</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:30]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlHome = &#39;https://open.spotify.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.3">11:15:37.944 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userid = &#39;hd5mvu4goazdxz6jzzcl31q5j&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def requestbody =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.5">{
+ &quot;name&quot;: &quot;MentorlabsChallenge&quot;,
+ &quot;description&quot;: &quot;New playlist description&quot;,
+ &quot;public&quot;: false
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:30]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref bg-step">13</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def requestSearchBody =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.13">{&quot;href&quot;: &quot;https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d&quot;,
+           &quot;id&quot;: &quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,
+           &quot;name&quot;: &quot;Queen&quot;,
+           &quot;type&quot;: &quot;artist&quot;,
+           &quot;uri&quot;: &quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;
+         }</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.31">
+      <div class="step-ref passed">31</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://api.spotify.com/v1/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.32">
+      <div class="step-ref passed">32</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/users/&#39;+userid+&#39;/playlists&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">11</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = &#39;Bearer BQAzMd0S88GPNM8xEHfYvv0g1-wGatTb9ojQrofjHt_XDWHcq6DU2QbZaDIAl3tDQRKH3M0Er0gqUTPSlX_1d7hDvB5F8GC6KWgJ8yEEDloHwFqFgQbStcKozTtD44Xnifel4u-r3pgc69geG2Q-C4JpjR81VPljkTKZar5VdoktJPAkXpYXdBpRw8svTDc3mrCsqjStEMCP9Q66QY6rqnWUQa2SQYHCJkU0qqfqJ1gBrbSg94BuOwtZDJnstsBMsOB37g89f5NPVAimhGzWXypfcEV5I59e&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request requestbody</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.35">
+      <div class="step-ref passed">35</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">474</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.35">11:15:37.991 request:
+1 &gt; POST https://api.spotify.com/v1/users/hd5mvu4goazdxz6jzzcl31q5j/playlists
+1 &gt; Authorization: Bearer BQAzMd0S88GPNM8xEHfYvv0g1-wGatTb9ojQrofjHt_XDWHcq6DU2QbZaDIAl3tDQRKH3M0Er0gqUTPSlX_1d7hDvB5F8GC6KWgJ8yEEDloHwFqFgQbStcKozTtD44Xnifel4u-r3pgc69geG2Q-C4JpjR81VPljkTKZar5VdoktJPAkXpYXdBpRw8svTDc3mrCsqjStEMCP9Q66QY6rqnWUQa2SQYHCJkU0qqfqJ1gBrbSg94BuOwtZDJnstsBMsOB37g89f5NPVAimhGzWXypfcEV5I59e
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 86
+1 &gt; Host: api.spotify.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_331)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;public&quot;:false,&quot;name&quot;:&quot;MentorlabsChallenge&quot;,&quot;description&quot;:&quot;New playlist description&quot;}
+
+11:15:38.438 response time in milliseconds: 447
+1 &lt; 201
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; cache-control: private, max-age=0
+1 &lt; location: https://api.spotify.com/v1/playlists/5awJEd1WvaxME3ueX23qSP
+1 &lt; x-robots-tag: noindex, nofollow
+1 &lt; access-control-allow-origin: *
+1 &lt; access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+1 &lt; access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+1 &lt; access-control-allow-credentials: true
+1 &lt; access-control-max-age: 604800
+1 &lt; strict-transport-security: max-age=31536000
+1 &lt; x-content-type-options: nosniff
+1 &lt; date: Mon, 13 Jun 2022 08:15:38 GMT
+1 &lt; server: envoy
+1 &lt; Via: HTTP/2 edgeproxy, 1.1 google
+1 &lt; Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+1 &lt; Transfer-Encoding: chunked
+{&quot;owner&quot;:{&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/users\/hd5mvu4goazdxz6jzzcl31q5j&quot;,&quot;id&quot;:&quot;hd5mvu4goazdxz6jzzcl31q5j&quot;,&quot;display_name&quot;:&quot;Veysel&quot;,&quot;type&quot;:&quot;user&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/user\/hd5mvu4goazdxz6jzzcl31q5j&quot;},&quot;uri&quot;:&quot;spotify:user:hd5mvu4goazdxz6jzzcl31q5j&quot;},&quot;images&quot;:[],&quot;snapshot_id&quot;:&quot;MSxiMGVmMDVlNmI5ZjgyMTA4NjY5OWVlYmZiN2U1M2IyYzYwZDliMWM2&quot;,&quot;collaborative&quot;:false,&quot;description&quot;:&quot;New playlist description&quot;,&quot;primary_color&quot;:null,&quot;type&quot;:&quot;playlist&quot;,&quot;uri&quot;:&quot;spotify:playlist:5awJEd1WvaxME3ueX23qSP&quot;,&quot;tracks&quot;:{&quot;next&quot;:null,&quot;total&quot;:0,&quot;offset&quot;:0,&quot;previous&quot;:null,&quot;limit&quot;:100,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/playlists\/5awJEd1WvaxME3ueX23qSP\/tracks&quot;,&quot;items&quot;:[]},&quot;followers&quot;:{&quot;total&quot;:0,&quot;href&quot;:null},&quot;public&quot;:false,&quot;name&quot;:&quot;MentorlabsChallenge&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/playlists\/5awJEd1WvaxME3ueX23qSP&quot;,&quot;id&quot;:&quot;5awJEd1WvaxME3ueX23qSP&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/playlist\/5awJEd1WvaxME3ueX23qSP&quot;}}
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:36]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:36]</span>
+                <span class="scenario-name">Search Bohemian Rhapsody</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>215</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:36]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:36]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlHome = &#39;https://open.spotify.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.3">11:15:38.455 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:36]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userid = &#39;hd5mvu4goazdxz6jzzcl31q5j&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:36]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def requestbody =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.5">{
+ &quot;name&quot;: &quot;MentorlabsChallenge&quot;,
+ &quot;description&quot;: &quot;New playlist description&quot;,
+ &quot;public&quot;: false
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:36]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref bg-step">13</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def requestSearchBody =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.13">{&quot;href&quot;: &quot;https://api.spotify.com/v1/artists/1dfeR4HaWDbWqFHLkxsg1d&quot;,
+           &quot;id&quot;: &quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,
+           &quot;name&quot;: &quot;Queen&quot;,
+           &quot;type&quot;: &quot;artist&quot;,
+           &quot;uri&quot;: &quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;
+         }</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.37">
+      <div class="step-ref passed">37</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://api.spotify.com/v1/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.38">
+      <div class="step-ref passed">38</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/search&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.39">
+      <div class="step-ref passed">39</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = &#39;Bearer BQD1XdeuQRK4hXgWZWECJ-HNxRU64AL_8wWyKyJ8HDC--HnaEEB9i-rWUX6JL50xeaYLqj0OEBC5UWsrKr43cve6WXRK8tIehoe2G2T8LQNJF5l54zNP4WwdE3xNYpm0j6RviOubGtY7KYtF6Pz7IUQ2rU9g1fAmiHlK1IZYyGs71Kjj6Wxt4HB1YNqJfHJUpQy38CS2BLl8614r9cd4ScZRGAB7eU7jb8fZBdrZJJiKdBzEm8FcdK3TxURDxuCax1B3XcrCdzm96S2EZ58vYTpsoglDoGDO&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.40">
+      <div class="step-ref passed">40</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request requestSearchBody</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.41">
+      <div class="step-ref passed">41</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">213</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.41">11:15:38.455 request:
+1 &gt; GET https://api.spotify.com/v1/search
+1 &gt; Authorization: Bearer BQD1XdeuQRK4hXgWZWECJ-HNxRU64AL_8wWyKyJ8HDC--HnaEEB9i-rWUX6JL50xeaYLqj0OEBC5UWsrKr43cve6WXRK8tIehoe2G2T8LQNJF5l54zNP4WwdE3xNYpm0j6RviOubGtY7KYtF6Pz7IUQ2rU9g1fAmiHlK1IZYyGs71Kjj6Wxt4HB1YNqJfHJUpQy38CS2BLl8614r9cd4ScZRGAB7eU7jb8fZBdrZJJiKdBzEm8FcdK3TxURDxuCax1B3XcrCdzm96S2EZ58vYTpsoglDoGDO
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 180
+1 &gt; Host: api.spotify.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_331)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}
+
+11:15:38.654 response time in milliseconds: 199
+1 &lt; 400
+1 &lt; Content-Type: text/html; charset=UTF-8
+1 &lt; Referrer-Policy: no-referrer
+1 &lt; Content-Length: 273
+1 &lt; Date: Mon, 13 Jun 2022 08:15:39 GMT
+
+&lt;html&gt;&lt;head&gt;
+&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html;charset=utf-8&quot;&gt;
+&lt;title&gt;400 Bad Request&lt;/title&gt;
+&lt;/head&gt;
+&lt;body text=#000000 bgcolor=#ffffff&gt;
+&lt;h1&gt;Error: Bad Request&lt;/h1&gt;
+&lt;h2&gt;Your client has issued a malformed or illegal request.&lt;/h2&gt;
+&lt;h2&gt;&lt;/h2&gt;
+&lt;/body&gt;&lt;/html&gt;
+
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

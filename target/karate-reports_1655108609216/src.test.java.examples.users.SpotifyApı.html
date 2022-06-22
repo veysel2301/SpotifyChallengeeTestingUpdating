@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.examples.users.SpotifyApı</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">3</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-06-13 11:20:36 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:14]"><span>[1:14]</span> <span>Get Playlist User</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:20]"><span>[2:20]</span> <span>Create Playlist</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[3:26]"><span>[3:26]</span> <span>Search Bohemian Rhapsody</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/examples/users/SpotifyApı.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Apı Testing</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:14]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:14]</span>
+                <span class="scenario-name">Get Playlist User</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1046</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:14]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:14]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlHome = &#39;https://open.spotify.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.3">11:20:33.893 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:14]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userid = &#39;hd5mvu4goazdxz6jzzcl31q5j&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:14]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def requestbody =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">30</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.5">{
+ &quot;name&quot;: &quot;MentorlabsChallenge&quot;,
+ &quot;description&quot;: &quot;New playlist description&quot;,
+ &quot;public&quot;: false
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://api.spotify.com/v1/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/me&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = &#39;Bearer BQB2PpsY3Mz8I9Lsd91mPWAnkvHa0leeWD-oiyWoqyyzs0z6kk8RwEQ1FNNHTIJ67C6AdWopkeTSeQESFEPD9Gn1EotZjPZJwrzCKILSMcTDauxcBDuOxNFfCQVV3XI8Wxjw9zJvZDPoRoiqCUazgW4dknTPXKusKhlM3YMZskm0SV7Gs98pyeT67LumKQ-Q7JFT7pr9uLkwMx9aS0Sjv6U_4uRgMbcdDIHeKxH0VYkzVRC2o3Jvd_rOZ-BmjVOmHyo8Rw90SH4APp6yUtjSADX54IdIKkOE&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1010</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.18">11:20:34.331 request:
+1 &gt; GET https://api.spotify.com/v1/me
+1 &gt; Authorization: Bearer BQB2PpsY3Mz8I9Lsd91mPWAnkvHa0leeWD-oiyWoqyyzs0z6kk8RwEQ1FNNHTIJ67C6AdWopkeTSeQESFEPD9Gn1EotZjPZJwrzCKILSMcTDauxcBDuOxNFfCQVV3XI8Wxjw9zJvZDPoRoiqCUazgW4dknTPXKusKhlM3YMZskm0SV7Gs98pyeT67LumKQ-Q7JFT7pr9uLkwMx9aS0Sjv6U_4uRgMbcdDIHeKxH0VYkzVRC2o3Jvd_rOZ-BmjVOmHyo8Rw90SH4APp6yUtjSADX54IdIKkOE
+1 &gt; Host: api.spotify.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_331)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+11:20:34.963 response time in milliseconds: 632
+1 &lt; 200
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; cache-control: private, max-age=0
+1 &lt; vary: Authorization
+1 &lt; x-robots-tag: noindex, nofollow
+1 &lt; access-control-allow-origin: *
+1 &lt; access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+1 &lt; access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+1 &lt; access-control-allow-credentials: true
+1 &lt; access-control-max-age: 604800
+1 &lt; strict-transport-security: max-age=31536000
+1 &lt; x-content-type-options: nosniff
+1 &lt; date: Mon, 13 Jun 2022 08:20:35 GMT
+1 &lt; server: envoy
+1 &lt; Via: HTTP/2 edgeproxy, 1.1 google
+1 &lt; Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+1 &lt; Transfer-Encoding: chunked
+{&quot;country&quot;:&quot;TR&quot;,&quot;images&quot;:[],&quot;product&quot;:&quot;open&quot;,&quot;followers&quot;:{&quot;total&quot;:0,&quot;href&quot;:null},&quot;explicit_content&quot;:{&quot;filter_locked&quot;:false,&quot;filter_enabled&quot;:false},&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/users\/hd5mvu4goazdxz6jzzcl31q5j&quot;,&quot;id&quot;:&quot;hd5mvu4goazdxz6jzzcl31q5j&quot;,&quot;display_name&quot;:&quot;Veysel&quot;,&quot;type&quot;:&quot;user&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/user\/hd5mvu4goazdxz6jzzcl31q5j&quot;},&quot;uri&quot;:&quot;spotify:user:hd5mvu4goazdxz6jzzcl31q5j&quot;,&quot;email&quot;:&quot;veyseloner23@gmail.com&quot;}
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:20]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:20]</span>
+                <span class="scenario-name">Create Playlist</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>464</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:20]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlHome = &#39;https://open.spotify.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.3">11:20:34.979 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userid = &#39;hd5mvu4goazdxz6jzzcl31q5j&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:20]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def requestbody =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.5">{
+ &quot;name&quot;: &quot;MentorlabsChallenge&quot;,
+ &quot;description&quot;: &quot;New playlist description&quot;,
+ &quot;public&quot;: false
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://api.spotify.com/v1/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/users/&#39;+userid+&#39;/playlists&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = &#39;Bearer BQAzMd0S88GPNM8xEHfYvv0g1-wGatTb9ojQrofjHt_XDWHcq6DU2QbZaDIAl3tDQRKH3M0Er0gqUTPSlX_1d7hDvB5F8GC6KWgJ8yEEDloHwFqFgQbStcKozTtD44Xnifel4u-r3pgc69geG2Q-C4JpjR81VPljkTKZar5VdoktJPAkXpYXdBpRw8svTDc3mrCsqjStEMCP9Q66QY6rqnWUQa2SQYHCJkU0qqfqJ1gBrbSg94BuOwtZDJnstsBMsOB37g89f5NPVAimhGzWXypfcEV5I59e&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.24">
+      <div class="step-ref passed">24</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request requestbody</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.25">
+      <div class="step-ref passed">25</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">455</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.25">11:20:35.017 request:
+1 &gt; POST https://api.spotify.com/v1/users/hd5mvu4goazdxz6jzzcl31q5j/playlists
+1 &gt; Authorization: Bearer BQAzMd0S88GPNM8xEHfYvv0g1-wGatTb9ojQrofjHt_XDWHcq6DU2QbZaDIAl3tDQRKH3M0Er0gqUTPSlX_1d7hDvB5F8GC6KWgJ8yEEDloHwFqFgQbStcKozTtD44Xnifel4u-r3pgc69geG2Q-C4JpjR81VPljkTKZar5VdoktJPAkXpYXdBpRw8svTDc3mrCsqjStEMCP9Q66QY6rqnWUQa2SQYHCJkU0qqfqJ1gBrbSg94BuOwtZDJnstsBMsOB37g89f5NPVAimhGzWXypfcEV5I59e
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 86
+1 &gt; Host: api.spotify.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_331)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;public&quot;:false,&quot;name&quot;:&quot;MentorlabsChallenge&quot;,&quot;description&quot;:&quot;New playlist description&quot;}
+
+11:20:35.436 response time in milliseconds: 419
+1 &lt; 201
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; cache-control: private, max-age=0
+1 &lt; location: https://api.spotify.com/v1/playlists/2NAfG02WR9JHqgavg9l58X
+1 &lt; x-robots-tag: noindex, nofollow
+1 &lt; access-control-allow-origin: *
+1 &lt; access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+1 &lt; access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+1 &lt; access-control-allow-credentials: true
+1 &lt; access-control-max-age: 604800
+1 &lt; strict-transport-security: max-age=31536000
+1 &lt; x-content-type-options: nosniff
+1 &lt; date: Mon, 13 Jun 2022 08:20:35 GMT
+1 &lt; server: envoy
+1 &lt; Via: HTTP/2 edgeproxy, 1.1 google
+1 &lt; Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+1 &lt; Transfer-Encoding: chunked
+{&quot;owner&quot;:{&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/users\/hd5mvu4goazdxz6jzzcl31q5j&quot;,&quot;id&quot;:&quot;hd5mvu4goazdxz6jzzcl31q5j&quot;,&quot;display_name&quot;:&quot;Veysel&quot;,&quot;type&quot;:&quot;user&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/user\/hd5mvu4goazdxz6jzzcl31q5j&quot;},&quot;uri&quot;:&quot;spotify:user:hd5mvu4goazdxz6jzzcl31q5j&quot;},&quot;images&quot;:[],&quot;snapshot_id&quot;:&quot;MSxlM2E2MGRlZGEzMDhiMWRkMGFkNGM1ZjJlMGM5NWFjYTAwMTUxN2Vi&quot;,&quot;collaborative&quot;:false,&quot;description&quot;:&quot;New playlist description&quot;,&quot;primary_color&quot;:null,&quot;type&quot;:&quot;playlist&quot;,&quot;uri&quot;:&quot;spotify:playlist:2NAfG02WR9JHqgavg9l58X&quot;,&quot;tracks&quot;:{&quot;next&quot;:null,&quot;total&quot;:0,&quot;offset&quot;:0,&quot;previous&quot;:null,&quot;limit&quot;:100,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/playlists\/2NAfG02WR9JHqgavg9l58X\/tracks&quot;,&quot;items&quot;:[]},&quot;followers&quot;:{&quot;total&quot;:0,&quot;href&quot;:null},&quot;public&quot;:false,&quot;name&quot;:&quot;MentorlabsChallenge&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/playlists\/2NAfG02WR9JHqgavg9l58X&quot;,&quot;id&quot;:&quot;2NAfG02WR9JHqgavg9l58X&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/playlist\/2NAfG02WR9JHqgavg9l58X&quot;}}
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:26]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:26]</span>
+                <span class="scenario-name">Search Bohemian Rhapsody</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>724</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:26]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.3">
+      <div class="step-ref bg-step">3</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def urlHome = &#39;https://open.spotify.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.3">11:20:35.449 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def userid = &#39;hd5mvu4goazdxz6jzzcl31q5j&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def requestbody =</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="0.5">{
+ &quot;name&quot;: &quot;MentorlabsChallenge&quot;,
+ &quot;description&quot;: &quot;New playlist description&quot;,
+ &quot;public&quot;: false
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://api.spotify.com/v1/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/search&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = &#39;Bearer BQD1XdeuQRK4hXgWZWECJ-HNxRU64AL_8wWyKyJ8HDC--HnaEEB9i-rWUX6JL50xeaYLqj0OEBC5UWsrKr43cve6WXRK8tIehoe2G2T8LQNJF5l54zNP4WwdE3xNYpm0j6RviOubGtY7KYtF6Pz7IUQ2rU9g1fAmiHlK1IZYyGs71Kjj6Wxt4HB1YNqJfHJUpQy38CS2BLl8614r9cd4ScZRGAB7eU7jb8fZBdrZJJiKdBzEm8FcdK3TxURDxuCax1B3XcrCdzm96S2EZ58vYTpsoglDoGDO&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.31">
+      <div class="step-ref passed">31</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param q = &#39;Bohemian Rhapsody(The Original SoundTrack)&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.32">
+      <div class="step-ref passed">32</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param type = &#39;track&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">721</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.33">11:20:35.449 request:
+1 &gt; GET https://api.spotify.com/v1/search?q=Bohemian+Rhapsody%28The+Original+SoundTrack%29&amp;type=track
+1 &gt; Authorization: Bearer BQD1XdeuQRK4hXgWZWECJ-HNxRU64AL_8wWyKyJ8HDC--HnaEEB9i-rWUX6JL50xeaYLqj0OEBC5UWsrKr43cve6WXRK8tIehoe2G2T8LQNJF5l54zNP4WwdE3xNYpm0j6RviOubGtY7KYtF6Pz7IUQ2rU9g1fAmiHlK1IZYyGs71Kjj6Wxt4HB1YNqJfHJUpQy38CS2BLl8614r9cd4ScZRGAB7eU7jb8fZBdrZJJiKdBzEm8FcdK3TxURDxuCax1B3XcrCdzm96S2EZ58vYTpsoglDoGDO
+1 &gt; Content-Type: application/json
+1 &gt; Host: api.spotify.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_331)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+11:20:36.166 response time in milliseconds: 663
+1 &lt; 200
+1 &lt; content-type: application/json; charset=utf-8
+1 &lt; cache-control: public, max-age=7200
+1 &lt; x-robots-tag: noindex, nofollow
+1 &lt; access-control-allow-origin: *
+1 &lt; access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+1 &lt; access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+1 &lt; access-control-allow-credentials: true
+1 &lt; access-control-max-age: 604800
+1 &lt; strict-transport-security: max-age=31536000
+1 &lt; x-content-type-options: nosniff
+1 &lt; date: Mon, 13 Jun 2022 08:20:36 GMT
+1 &lt; server: envoy
+1 &lt; Via: HTTP/2 edgeproxy, 1.1 google
+1 &lt; Alt-Svc: h3=&quot;:443&quot;; ma=2592000,h3-29=&quot;:443&quot;; ma=2592000
+1 &lt; Transfer-Encoding: chunked
+{&quot;tracks&quot;:{&quot;next&quot;:&quot;https:\/\/api.spotify.com\/v1\/search?query=Bohemian+Rhapsody%28The+Original+SoundTrack%29&amp;type=track&amp;offset=20&amp;limit=20&quot;,&quot;total&quot;:1021,&quot;offset&quot;:0,&quot;previous&quot;:null,&quot;limit&quot;:20,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/search?query=Bohemian+Rhapsody%28The+Original+SoundTrack%29&amp;type=track&amp;offset=0&amp;limit=20&quot;,&quot;items&quot;:[{&quot;disc_number&quot;:1,&quot;album&quot;:{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d0000b273e8b066f70c206551210d902b&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00001e02e8b066f70c206551210d902b&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00004851e8b066f70c206551210d902b&quot;,&quot;height&quot;:64}],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;release_date_precision&quot;:&quot;day&quot;,&quot;type&quot;:&quot;album&quot;,&quot;uri&quot;:&quot;spotify:album:6i6folBtxKV28WX3msQ4FE&quot;,&quot;total_tracks&quot;:22,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;release_date&quot;:&quot;2018-10-19&quot;,&quot;name&quot;:&quot;Bohemian Rhapsody (The Original Soundtrack)&quot;,&quot;album_type&quot;:&quot;album&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/albums\/6i6folBtxKV28WX3msQ4FE&quot;,&quot;id&quot;:&quot;6i6folBtxKV28WX3msQ4FE&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/album\/6i6folBtxKV28WX3msQ4FE&quot;}},&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;type&quot;:&quot;track&quot;,&quot;external_ids&quot;:{&quot;isrc&quot;:&quot;GBUM71029604&quot;},&quot;uri&quot;:&quot;spotify:track:3z8h0TU7ReDPLIbEnYhWZb&quot;,&quot;duration_ms&quot;:354947,&quot;explicit&quot;:false,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;preview_url&quot;:null,&quot;popularity&quot;:74,&quot;name&quot;:&quot;Bohemian Rhapsody&quot;,&quot;track_number&quot;:7,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/tracks\/3z8h0TU7ReDPLIbEnYhWZb&quot;,&quot;id&quot;:&quot;3z8h0TU7ReDPLIbEnYhWZb&quot;,&quot;is_local&quot;:false,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/track\/3z8h0TU7ReDPLIbEnYhWZb&quot;}},{&quot;disc_number&quot;:1,&quot;album&quot;:{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d0000b273e8b066f70c206551210d902b&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00001e02e8b066f70c206551210d902b&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00004851e8b066f70c206551210d902b&quot;,&quot;height&quot;:64}],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;release_date_precision&quot;:&quot;day&quot;,&quot;type&quot;:&quot;album&quot;,&quot;uri&quot;:&quot;spotify:album:6i6folBtxKV28WX3msQ4FE&quot;,&quot;total_tracks&quot;:22,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;release_date&quot;:&quot;2018-10-19&quot;,&quot;name&quot;:&quot;Bohemian Rhapsody (The Original Soundtrack)&quot;,&quot;album_type&quot;:&quot;album&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/albums\/6i6folBtxKV28WX3msQ4FE&quot;,&quot;id&quot;:&quot;6i6folBtxKV28WX3msQ4FE&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/album\/6i6folBtxKV28WX3msQ4FE&quot;}},&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;type&quot;:&quot;track&quot;,&quot;external_ids&quot;:{&quot;isrc&quot;:&quot;GBUM71805979&quot;},&quot;uri&quot;:&quot;spotify:track:7xHATAMD7ezTZGYsNAMr5R&quot;,&quot;duration_ms&quot;:147840,&quot;explicit&quot;:false,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;preview_url&quot;:null,&quot;popularity&quot;:57,&quot;name&quot;:&quot;Bohemian Rhapsody - Live Aid&quot;,&quot;track_number&quot;:16,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/tracks\/7xHATAMD7ezTZGYsNAMr5R&quot;,&quot;id&quot;:&quot;7xHATAMD7ezTZGYsNAMr5R&quot;,&quot;is_local&quot;:false,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/track\/7xHATAMD7ezTZGYsNAMr5R&quot;}},{&quot;disc_number&quot;:1,&quot;album&quot;:{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d0000b273e8b066f70c206551210d902b&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00001e02e8b066f70c206551210d902b&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00004851e8b066f70c206551210d902b&quot;,&quot;height&quot;:64}],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;release_date_precision&quot;:&quot;day&quot;,&quot;type&quot;:&quot;album&quot;,&quot;uri&quot;:&quot;spotify:album:6i6folBtxKV28WX3msQ4FE&quot;,&quot;total_tracks&quot;:22,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;release_date&quot;:&quot;2018-10-19&quot;,&quot;name&quot;:&quot;Bohemian Rhapsody (The Original Soundtrack)&quot;,&quot;album_type&quot;:&quot;album&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/albums\/6i6folBtxKV28WX3msQ4FE&quot;,&quot;id&quot;:&quot;6i6folBtxKV28WX3msQ4FE&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/album\/6i6folBtxKV28WX3msQ4FE&quot;}},&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;type&quot;:&quot;track&quot;,&quot;external_ids&quot;:{&quot;isrc&quot;:&quot;GBUM71805978&quot;},&quot;uri&quot;:&quot;spotify:track:7iAqvWLgZzXvH38lA06QZg&quot;,&quot;duration_ms&quot;:223080,&quot;explicit&quot;:false,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;preview_url&quot;:null,&quot;popularity&quot;:70,&quot;name&quot;:&quot;I Want To Break Free&quot;,&quot;track_number&quot;:13,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/tracks\/7iAqvWLgZzXvH38lA06QZg&quot;,&quot;id&quot;:&quot;7iAqvWLgZzXvH38lA06QZg&quot;,&quot;is_local&quot;:false,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/track\/7iAqvWLgZzXvH38lA06QZg&quot;}},{&quot;disc_number&quot;:1,&quot;album&quot;:{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d0000b273693b0516d466579ea1c8af9b&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00001e02693b0516d466579ea1c8af9b&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00004851693b0516d466579ea1c8af9b&quot;,&quot;height&quot;:64}],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;release_date_precision&quot;:&quot;day&quot;,&quot;type&quot;:&quot;album&quot;,&quot;uri&quot;:&quot;spotify:album:0EGmMYUaNirXETfwP5KrzH&quot;,&quot;total_tracks&quot;:29,&quot;artists&quot;:[{&quot;name&quot;:&quot;Various Artists&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/0LyfQWJT6nXafLPZqxe9Of&quot;,&quot;id&quot;:&quot;0LyfQWJT6nXafLPZqxe9Of&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/0LyfQWJT6nXafLPZqxe9Of&quot;},&quot;uri&quot;:&quot;spotify:artist:0LyfQWJT6nXafLPZqxe9Of&quot;}],&quot;release_date&quot;:&quot;2012-04-10&quot;,&quot;name&quot;:&quot;Nm Janitsjar 2012 - 5 Divisjon&quot;,&quot;album_type&quot;:&quot;compilation&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/albums\/0EGmMYUaNirXETfwP5KrzH&quot;,&quot;id&quot;:&quot;0EGmMYUaNirXETfwP5KrzH&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/album\/0EGmMYUaNirXETfwP5KrzH&quot;}},&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;type&quot;:&quot;track&quot;,&quot;external_ids&quot;:{&quot;isrc&quot;:&quot;nocjb1216060&quot;},&quot;uri&quot;:&quot;spotify:track:1lsQRHhV3qAVFQ8mydGJuz&quot;,&quot;duration_ms&quot;:391546,&quot;explicit&quot;:false,&quot;artists&quot;:[{&quot;name&quot;:&quot;Freddie Mercury&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/4M1FpEWs2PeYfJe7xxJfhH&quot;,&quot;id&quot;:&quot;4M1FpEWs2PeYfJe7xxJfhH&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/4M1FpEWs2PeYfJe7xxJfhH&quot;},&quot;uri&quot;:&quot;spotify:artist:4M1FpEWs2PeYfJe7xxJfhH&quot;},{&quot;name&quot;:&quot;Hommelvik Musikkorps&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/6rMpyj7GtxJb03eo7716vi&quot;,&quot;id&quot;:&quot;6rMpyj7GtxJb03eo7716vi&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/6rMpyj7GtxJb03eo7716vi&quot;},&quot;uri&quot;:&quot;spotify:artist:6rMpyj7GtxJb03eo7716vi&quot;}],&quot;preview_url&quot;:&quot;https:\/\/p.scdn.co\/mp3-preview\/73e4e6260b1aea09f31a56f38a3a4effc320b132?cid=774b29d4f13844c495f206cafdad9c86&quot;,&quot;popularity&quot;:34,&quot;name&quot;:&quot;Bohemian Rapsody&quot;,&quot;track_number&quot;:6,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/tracks\/1lsQRHhV3qAVFQ8mydGJuz&quot;,&quot;id&quot;:&quot;1lsQRHhV3qAVFQ8mydGJuz&quot;,&quot;is_local&quot;:false,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/track\/1lsQRHhV3qAVFQ8mydGJuz&quot;}},{&quot;disc_number&quot;:1,&quot;album&quot;:{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d0000b273e8b066f70c206551210d902b&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00001e02e8b066f70c206551210d902b&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00004851e8b066f70c206551210d902b&quot;,&quot;height&quot;:64}],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;release_date_precision&quot;:&quot;day&quot;,&quot;type&quot;:&quot;album&quot;,&quot;uri&quot;:&quot;spotify:album:6i6folBtxKV28WX3msQ4FE&quot;,&quot;total_tracks&quot;:22,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;release_date&quot;:&quot;2018-10-19&quot;,&quot;name&quot;:&quot;Bohemian Rhapsody (The Original Soundtrack)&quot;,&quot;album_type&quot;:&quot;album&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/albums\/6i6folBtxKV28WX3msQ4FE&quot;,&quot;id&quot;:&quot;6i6folBtxKV28WX3msQ4FE&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/album\/6i6folBtxKV28WX3msQ4FE&quot;}},&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;type&quot;:&quot;track&quot;,&quot;external_ids&quot;:{&quot;isrc&quot;:&quot;GBUM71106221&quot;},&quot;uri&quot;:&quot;spotify:track:5WZDLZVCvY1rEyNir6k8Pg&quot;,&quot;duration_ms&quot;:271611,&quot;explicit&quot;:false,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;preview_url&quot;:null,&quot;popularity&quot;:63,&quot;name&quot;:&quot;The Show Must Go On&quot;,&quot;track_number&quot;:22,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/tracks\/5WZDLZVCvY1rEyNir6k8Pg&quot;,&quot;id&quot;:&quot;5WZDLZVCvY1rEyNir6k8Pg&quot;,&quot;is_local&quot;:false,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/track\/5WZDLZVCvY1rEyNir6k8Pg&quot;}},{&quot;disc_number&quot;:1,&quot;album&quot;:{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d0000b273dbf9bbde43127734e1ce9c29&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00001e02dbf9bbde43127734e1ce9c29&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00004851dbf9bbde43127734e1ce9c29&quot;,&quot;height&quot;:64}],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;release_date_precision&quot;:&quot;day&quot;,&quot;type&quot;:&quot;album&quot;,&quot;uri&quot;:&quot;spotify:album:6mvwcq1i7w481wYCtxJyso&quot;,&quot;total_tracks&quot;:1,&quot;artists&quot;:[{&quot;name&quot;:&quot;John Adams&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/4LaimQU44rsz2kMWQmY6Bi&quot;,&quot;id&quot;:&quot;4LaimQU44rsz2kMWQmY6Bi&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/4LaimQU44rsz2kMWQmY6Bi&quot;},&quot;uri&quot;:&quot;spotify:artist:4LaimQU44rsz2kMWQmY6Bi&quot;}],&quot;release_date&quot;:&quot;2018-10-22&quot;,&quot;name&quot;:&quot;Bohemian Rhapsody (Acoustic)&quot;,&quot;album_type&quot;:&quot;single&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/albums\/6mvwcq1i7w481wYCtxJyso&quot;,&quot;id&quot;:&quot;6mvwcq1i7w481wYCtxJyso&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/album\/6mvwcq1i7w481wYCtxJyso&quot;}},&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;type&quot;:&quot;track&quot;,&quot;external_ids&quot;:{&quot;isrc&quot;:&quot;UK42F1800329&quot;},&quot;uri&quot;:&quot;spotify:track:6f9qzNP6elRi8i2NgqGoE5&quot;,&quot;duration_ms&quot;:173426,&quot;explicit&quot;:false,&quot;artists&quot;:[{&quot;name&quot;:&quot;John Adams&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/4LaimQU44rsz2kMWQmY6Bi&quot;,&quot;id&quot;:&quot;4LaimQU44rsz2kMWQmY6Bi&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/4LaimQU44rsz2kMWQmY6Bi&quot;},&quot;uri&quot;:&quot;spotify:artist:4LaimQU44rsz2kMWQmY6Bi&quot;}],&quot;preview_url&quot;:&quot;https:\/\/p.scdn.co\/mp3-preview\/de48e7b617696e95ad978899551744ac332213e7?cid=774b29d4f13844c495f206cafdad9c86&quot;,&quot;popularity&quot;:49,&quot;name&quot;:&quot;Bohemian Rhapsody - Acoustic&quot;,&quot;track_number&quot;:1,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/tracks\/6f9qzNP6elRi8i2NgqGoE5&quot;,&quot;id&quot;:&quot;6f9qzNP6elRi8i2NgqGoE5&quot;,&quot;is_local&quot;:false,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/track\/6f9qzNP6elRi8i2NgqGoE5&quot;}},{&quot;disc_number&quot;:1,&quot;album&quot;:{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d0000b273e8b066f70c206551210d902b&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00001e02e8b066f70c206551210d902b&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00004851e8b066f70c206551210d902b&quot;,&quot;height&quot;:64}],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;release_date_precision&quot;:&quot;day&quot;,&quot;type&quot;:&quot;album&quot;,&quot;uri&quot;:&quot;spotify:album:6i6folBtxKV28WX3msQ4FE&quot;,&quot;total_tracks&quot;:22,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;release_date&quot;:&quot;2018-10-19&quot;,&quot;name&quot;:&quot;Bohemian Rhapsody (The Original Soundtrack)&quot;,&quot;album_type&quot;:&quot;album&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/albums\/6i6folBtxKV28WX3msQ4FE&quot;,&quot;id&quot;:&quot;6i6folBtxKV28WX3msQ4FE&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/album\/6i6folBtxKV28WX3msQ4FE&quot;}},&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;type&quot;:&quot;track&quot;,&quot;external_ids&quot;:{&quot;isrc&quot;:&quot;GBUM71029606&quot;},&quot;uri&quot;:&quot;spotify:track:300YN8ebGB90nDuzgz0f3O&quot;,&quot;duration_ms&quot;:179355,&quot;explicit&quot;:false,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;preview_url&quot;:null,&quot;popularity&quot;:68,&quot;name&quot;:&quot;Killer Queen&quot;,&quot;track_number&quot;:5,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/tracks\/300YN8ebGB90nDuzgz0f3O&quot;,&quot;id&quot;:&quot;300YN8ebGB90nDuzgz0f3O&quot;,&quot;is_local&quot;:false,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/track\/300YN8ebGB90nDuzgz0f3O&quot;}},{&quot;disc_number&quot;:2,&quot;album&quot;:{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d0000b273545d78706aef46068cdd4056&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00001e02545d78706aef46068cdd4056&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00004851545d78706aef46068cdd4056&quot;,&quot;height&quot;:64}],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AG&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;BB&quot;,&quot;BE&quot;,&quot;BG&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BZ&quot;,&quot;CH&quot;,&quot;CL&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FR&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JP&quot;,&quot;KN&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;MC&quot;,&quot;MT&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NZ&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PH&quot;,&quot;PL&quot;,&quot;PT&quot;,&quot;PY&quot;,&quot;RO&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SV&quot;,&quot;TH&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TW&quot;,&quot;UA&quot;,&quot;UY&quot;,&quot;VC&quot;,&quot;VN&quot;,&quot;ZA&quot;],&quot;release_date_precision&quot;:&quot;day&quot;,&quot;type&quot;:&quot;album&quot;,&quot;uri&quot;:&quot;spotify:album:70pjSyIDOZ5G5blR6aNXkQ&quot;,&quot;total_tracks&quot;:27,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;release_date&quot;:&quot;2007-10-29&quot;,&quot;name&quot;:&quot;Queen Rock Montreal&quot;,&quot;album_type&quot;:&quot;album&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/albums\/70pjSyIDOZ5G5blR6aNXkQ&quot;,&quot;id&quot;:&quot;70pjSyIDOZ5G5blR6aNXkQ&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/album\/70pjSyIDOZ5G5blR6aNXkQ&quot;}},&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AG&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;BB&quot;,&quot;BE&quot;,&quot;BG&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BZ&quot;,&quot;CH&quot;,&quot;CL&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FR&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JP&quot;,&quot;KN&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;MC&quot;,&quot;MT&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NZ&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PH&quot;,&quot;PL&quot;,&quot;PT&quot;,&quot;PY&quot;,&quot;RO&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SV&quot;,&quot;TH&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TW&quot;,&quot;UA&quot;,&quot;UY&quot;,&quot;VC&quot;,&quot;VN&quot;,&quot;ZA&quot;],&quot;type&quot;:&quot;track&quot;,&quot;external_ids&quot;:{&quot;isrc&quot;:&quot;GBCEE0700025&quot;},&quot;uri&quot;:&quot;spotify:track:0U49xOQCWh6zDWcu5r8Why&quot;,&quot;duration_ms&quot;:328933,&quot;explicit&quot;:false,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;preview_url&quot;:null,&quot;popularity&quot;:40,&quot;name&quot;:&quot;Bohemian Rhapsody - Live At The Montreal Forum \/ November 1981&quot;,&quot;track_number&quot;:9,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/tracks\/0U49xOQCWh6zDWcu5r8Why&quot;,&quot;id&quot;:&quot;0U49xOQCWh6zDWcu5r8Why&quot;,&quot;is_local&quot;:false,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/track\/0U49xOQCWh6zDWcu5r8Why&quot;}},{&quot;disc_number&quot;:1,&quot;album&quot;:{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d0000b273e8b066f70c206551210d902b&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00001e02e8b066f70c206551210d902b&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00004851e8b066f70c206551210d902b&quot;,&quot;height&quot;:64}],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;release_date_precision&quot;:&quot;day&quot;,&quot;type&quot;:&quot;album&quot;,&quot;uri&quot;:&quot;spotify:album:6i6folBtxKV28WX3msQ4FE&quot;,&quot;total_tracks&quot;:22,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;release_date&quot;:&quot;2018-10-19&quot;,&quot;name&quot;:&quot;Bohemian Rhapsody (The Original Soundtrack)&quot;,&quot;album_type&quot;:&quot;album&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/albums\/6i6folBtxKV28WX3msQ4FE&quot;,&quot;id&quot;:&quot;6i6folBtxKV28WX3msQ4FE&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/album\/6i6folBtxKV28WX3msQ4FE&quot;}},&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;type&quot;:&quot;track&quot;,&quot;external_ids&quot;:{&quot;isrc&quot;:&quot;GBUM71805977&quot;},&quot;uri&quot;:&quot;spotify:track:3INsYP1Y8GG4qJvBsKCdXC&quot;,&quot;duration_ms&quot;:217824,&quot;explicit&quot;:false,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;preview_url&quot;:null,&quot;popularity&quot;:68,&quot;name&quot;:&quot;Don&#39;t Stop Me Now - ...Revisited&quot;,&quot;track_number&quot;:21,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/tracks\/3INsYP1Y8GG4qJvBsKCdXC&quot;,&quot;id&quot;:&quot;3INsYP1Y8GG4qJvBsKCdXC&quot;,&quot;is_local&quot;:false,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/track\/3INsYP1Y8GG4qJvBsKCdXC&quot;}},{&quot;disc_number&quot;:1,&quot;album&quot;:{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d0000b2733e477b69b1436809fba0a712&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00001e023e477b69b1436809fba0a712&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d000048513e477b69b1436809fba0a712&quot;,&quot;height&quot;:64}],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;release_date_precision&quot;:&quot;day&quot;,&quot;type&quot;:&quot;album&quot;,&quot;uri&quot;:&quot;spotify:album:1BQHEojRFcwMX8b5942CLm&quot;,&quot;total_tracks&quot;:1,&quot;artists&quot;:[{&quot;name&quot;:&quot;Rousseau&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1Mtd57xUzIfeCexQtWRvgr&quot;,&quot;id&quot;:&quot;1Mtd57xUzIfeCexQtWRvgr&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1Mtd57xUzIfeCexQtWRvgr&quot;},&quot;uri&quot;:&quot;spotify:artist:1Mtd57xUzIfeCexQtWRvgr&quot;}],&quot;release_date&quot;:&quot;2020-01-22&quot;,&quot;name&quot;:&quot;Bohemian Rhapsody (Piano Cover)&quot;,&quot;album_type&quot;:&quot;single&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/albums\/1BQHEojRFcwMX8b5942CLm&quot;,&quot;id&quot;:&quot;1BQHEojRFcwMX8b5942CLm&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/album\/1BQHEojRFcwMX8b5942CLm&quot;}},&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;type&quot;:&quot;track&quot;,&quot;external_ids&quot;:{&quot;isrc&quot;:&quot;USA2P1962226&quot;},&quot;uri&quot;:&quot;spotify:track:71CaruMPDQjoq8j37SncsJ&quot;,&quot;duration_ms&quot;:360460,&quot;explicit&quot;:false,&quot;artists&quot;:[{&quot;name&quot;:&quot;Rousseau&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1Mtd57xUzIfeCexQtWRvgr&quot;,&quot;id&quot;:&quot;1Mtd57xUzIfeCexQtWRvgr&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1Mtd57xUzIfeCexQtWRvgr&quot;},&quot;uri&quot;:&quot;spotify:artist:1Mtd57xUzIfeCexQtWRvgr&quot;}],&quot;preview_url&quot;:&quot;https:\/\/p.scdn.co\/mp3-preview\/9a89dfca9434498acedb60fd84243f942bf6c2c2?cid=774b29d4f13844c495f206cafdad9c86&quot;,&quot;popularity&quot;:24,&quot;name&quot;:&quot;Bohemian Rhapsody - Piano Cover&quot;,&quot;track_number&quot;:1,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/tracks\/71CaruMPDQjoq8j37SncsJ&quot;,&quot;id&quot;:&quot;71CaruMPDQjoq8j37SncsJ&quot;,&quot;is_local&quot;:false,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/track\/71CaruMPDQjoq8j37SncsJ&quot;}},{&quot;disc_number&quot;:1,&quot;album&quot;:{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d0000b27366ef3d044e02a9fb82a2db82&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00001e0266ef3d044e02a9fb82a2db82&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d0000485166ef3d044e02a9fb82a2db82&quot;,&quot;height&quot;:64}],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;release_date_precision&quot;:&quot;day&quot;,&quot;type&quot;:&quot;album&quot;,&quot;uri&quot;:&quot;spotify:album:7GWzwOQTOGlyqwUOJSWPCN&quot;,&quot;total_tracks&quot;:12,&quot;artists&quot;:[{&quot;name&quot;:&quot;Rockabye Baby!&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/5bHjVR4F2Tfq4Ha6x7K6wU&quot;,&quot;id&quot;:&quot;5bHjVR4F2Tfq4Ha6x7K6wU&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/5bHjVR4F2Tfq4Ha6x7K6wU&quot;},&quot;uri&quot;:&quot;spotify:artist:5bHjVR4F2Tfq4Ha6x7K6wU&quot;}],&quot;release_date&quot;:&quot;2009-05-19&quot;,&quot;name&quot;:&quot;Lullaby Renditions of Queen&quot;,&quot;album_type&quot;:&quot;album&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/albums\/7GWzwOQTOGlyqwUOJSWPCN&quot;,&quot;id&quot;:&quot;7GWzwOQTOGlyqwUOJSWPCN&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/album\/7GWzwOQTOGlyqwUOJSWPCN&quot;}},&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;type&quot;:&quot;track&quot;,&quot;external_ids&quot;:{&quot;isrc&quot;:&quot;USEWC0882101&quot;},&quot;uri&quot;:&quot;spotify:track:2OWOkkAQv7KFlScZymrfZ4&quot;,&quot;duration_ms&quot;:274280,&quot;explicit&quot;:false,&quot;artists&quot;:[{&quot;name&quot;:&quot;Rockabye Baby!&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/5bHjVR4F2Tfq4Ha6x7K6wU&quot;,&quot;id&quot;:&quot;5bHjVR4F2Tfq4Ha6x7K6wU&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/5bHjVR4F2Tfq4Ha6x7K6wU&quot;},&quot;uri&quot;:&quot;spotify:artist:5bHjVR4F2Tfq4Ha6x7K6wU&quot;}],&quot;preview_url&quot;:&quot;https:\/\/p.scdn.co\/mp3-preview\/32ee4b303287b090083f651d3c634f63bd7535d9?cid=774b29d4f13844c495f206cafdad9c86&quot;,&quot;popularity&quot;:49,&quot;name&quot;:&quot;Bohemian Rhapsody&quot;,&quot;track_number&quot;:1,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/tracks\/2OWOkkAQv7KFlScZymrfZ4&quot;,&quot;id&quot;:&quot;2OWOkkAQv7KFlScZymrfZ4&quot;,&quot;is_local&quot;:false,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/track\/2OWOkkAQv7KFlScZymrfZ4&quot;}},{&quot;disc_number&quot;:1,&quot;album&quot;:{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d0000b273e8b066f70c206551210d902b&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00001e02e8b066f70c206551210d902b&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00004851e8b066f70c206551210d902b&quot;,&quot;height&quot;:64}],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;release_date_precision&quot;:&quot;day&quot;,&quot;type&quot;:&quot;album&quot;,&quot;uri&quot;:&quot;spotify:album:6i6folBtxKV28WX3msQ4FE&quot;,&quot;total_tracks&quot;:22,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;release_date&quot;:&quot;2018-10-19&quot;,&quot;name&quot;:&quot;Bohemian Rhapsody (The Original Soundtrack)&quot;,&quot;album_type&quot;:&quot;album&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/albums\/6i6folBtxKV28WX3msQ4FE&quot;,&quot;id&quot;:&quot;6i6folBtxKV28WX3msQ4FE&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/album\/6i6folBtxKV28WX3msQ4FE&quot;}},&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;type&quot;:&quot;track&quot;,&quot;external_ids&quot;:{&quot;isrc&quot;:&quot;GBUM71029605&quot;},&quot;uri&quot;:&quot;spotify:track:2k1yPYf9WGA4LiqcLVwtzn&quot;,&quot;duration_ms&quot;:214640,&quot;explicit&quot;:false,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;preview_url&quot;:null,&quot;popularity&quot;:63,&quot;name&quot;:&quot;Another One Bites The Dust&quot;,&quot;track_number&quot;:12,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/tracks\/2k1yPYf9WGA4LiqcLVwtzn&quot;,&quot;id&quot;:&quot;2k1yPYf9WGA4LiqcLVwtzn&quot;,&quot;is_local&quot;:false,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/track\/2k1yPYf9WGA4LiqcLVwtzn&quot;}},{&quot;disc_number&quot;:2,&quot;album&quot;:{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d0000b2736334b723f809a8b1de2b475c&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00001e026334b723f809a8b1de2b475c&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d000048516334b723f809a8b1de2b475c&quot;,&quot;height&quot;:64}],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;release_date_precision&quot;:&quot;day&quot;,&quot;type&quot;:&quot;album&quot;,&quot;uri&quot;:&quot;spotify:album:0pipZo4jBQ2hA4HphdFccg&quot;,&quot;total_tracks&quot;:28,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;release_date&quot;:&quot;1992-05-26&quot;,&quot;name&quot;:&quot;Live At Wembley Stadium&quot;,&quot;album_type&quot;:&quot;album&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/albums\/0pipZo4jBQ2hA4HphdFccg&quot;,&quot;id&quot;:&quot;0pipZo4jBQ2hA4HphdFccg&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/album\/0pipZo4jBQ2hA4HphdFccg&quot;}},&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;type&quot;:&quot;track&quot;,&quot;external_ids&quot;:{&quot;isrc&quot;:&quot;GBCEE0300050&quot;},&quot;uri&quot;:&quot;spotify:track:2XbcujvemK0hGh0Ob4HAXQ&quot;,&quot;duration_ms&quot;:350573,&quot;explicit&quot;:false,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;preview_url&quot;:null,&quot;popularity&quot;:51,&quot;name&quot;:&quot;Bohemian Rhapsody - Live At Wembley Stadium \/ July 1986&quot;,&quot;track_number&quot;:7,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/tracks\/2XbcujvemK0hGh0Ob4HAXQ&quot;,&quot;id&quot;:&quot;2XbcujvemK0hGh0Ob4HAXQ&quot;,&quot;is_local&quot;:false,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/track\/2XbcujvemK0hGh0Ob4HAXQ&quot;}},{&quot;disc_number&quot;:1,&quot;album&quot;:{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d0000b273e8b066f70c206551210d902b&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00001e02e8b066f70c206551210d902b&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00004851e8b066f70c206551210d902b&quot;,&quot;height&quot;:64}],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;release_date_precision&quot;:&quot;day&quot;,&quot;type&quot;:&quot;album&quot;,&quot;uri&quot;:&quot;spotify:album:6i6folBtxKV28WX3msQ4FE&quot;,&quot;total_tracks&quot;:22,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;release_date&quot;:&quot;2018-10-19&quot;,&quot;name&quot;:&quot;Bohemian Rhapsody (The Original Soundtrack)&quot;,&quot;album_type&quot;:&quot;album&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/albums\/6i6folBtxKV28WX3msQ4FE&quot;,&quot;id&quot;:&quot;6i6folBtxKV28WX3msQ4FE&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/album\/6i6folBtxKV28WX3msQ4FE&quot;}},&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;type&quot;:&quot;track&quot;,&quot;external_ids&quot;:{&quot;isrc&quot;:&quot;GBUM71805980&quot;},&quot;uri&quot;:&quot;spotify:track:0YwBZKT8JE4U5TwmYE9BV9&quot;,&quot;duration_ms&quot;:245680,&quot;explicit&quot;:false,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;preview_url&quot;:null,&quot;popularity&quot;:64,&quot;name&quot;:&quot;Radio Ga Ga - Live Aid&quot;,&quot;track_number&quot;:17,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/tracks\/0YwBZKT8JE4U5TwmYE9BV9&quot;,&quot;id&quot;:&quot;0YwBZKT8JE4U5TwmYE9BV9&quot;,&quot;is_local&quot;:false,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/track\/0YwBZKT8JE4U5TwmYE9BV9&quot;}},{&quot;disc_number&quot;:1,&quot;album&quot;:{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d0000b2739729d686606e6be27346da30&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00001e029729d686606e6be27346da30&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d000048519729d686606e6be27346da30&quot;,&quot;height&quot;:64}],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;release_date_precision&quot;:&quot;day&quot;,&quot;type&quot;:&quot;album&quot;,&quot;uri&quot;:&quot;spotify:album:00JpoY0ZaQRXTNJUruibfX&quot;,&quot;total_tracks&quot;:7,&quot;artists&quot;:[{&quot;name&quot;:&quot;Pentatonix&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/26AHtbjWKiwYzsoGoUZq53&quot;,&quot;id&quot;:&quot;26AHtbjWKiwYzsoGoUZq53&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/26AHtbjWKiwYzsoGoUZq53&quot;},&quot;uri&quot;:&quot;spotify:artist:26AHtbjWKiwYzsoGoUZq53&quot;}],&quot;release_date&quot;:&quot;2017-04-07&quot;,&quot;name&quot;:&quot;PTX Vol. IV - Classics&quot;,&quot;album_type&quot;:&quot;album&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/albums\/00JpoY0ZaQRXTNJUruibfX&quot;,&quot;id&quot;:&quot;00JpoY0ZaQRXTNJUruibfX&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/album\/00JpoY0ZaQRXTNJUruibfX&quot;}},&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CA&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;US&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;type&quot;:&quot;track&quot;,&quot;external_ids&quot;:{&quot;isrc&quot;:&quot;USRC11700356&quot;},&quot;uri&quot;:&quot;spotify:track:0lrkMvRttmoXjMNS8YONvj&quot;,&quot;duration_ms&quot;:355733,&quot;explicit&quot;:false,&quot;artists&quot;:[{&quot;name&quot;:&quot;Pentatonix&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/26AHtbjWKiwYzsoGoUZq53&quot;,&quot;id&quot;:&quot;26AHtbjWKiwYzsoGoUZq53&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/26AHtbjWKiwYzsoGoUZq53&quot;},&quot;uri&quot;:&quot;spotify:artist:26AHtbjWKiwYzsoGoUZq53&quot;}],&quot;preview_url&quot;:&quot;https:\/\/p.scdn.co\/mp3-preview\/88d1c4cc10c01bdd9b4de64e1a1774cc8a9002cd?cid=774b29d4f13844c495f206cafdad9c86&quot;,&quot;popularity&quot;:50,&quot;name&quot;:&quot;Bohemian Rhapsody&quot;,&quot;track_number&quot;:1,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/tracks\/0lrkMvRttmoXjMNS8YONvj&quot;,&quot;id&quot;:&quot;0lrkMvRttmoXjMNS8YONvj&quot;,&quot;is_local&quot;:false,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/track\/0lrkMvRttmoXjMNS8YONvj&quot;}},{&quot;disc_number&quot;:1,&quot;album&quot;:{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d0000b273e8b066f70c206551210d902b&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00001e02e8b066f70c206551210d902b&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00004851e8b066f70c206551210d902b&quot;,&quot;height&quot;:64}],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;release_date_precision&quot;:&quot;day&quot;,&quot;type&quot;:&quot;album&quot;,&quot;uri&quot;:&quot;spotify:album:6i6folBtxKV28WX3msQ4FE&quot;,&quot;total_tracks&quot;:22,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;release_date&quot;:&quot;2018-10-19&quot;,&quot;name&quot;:&quot;Bohemian Rhapsody (The Original Soundtrack)&quot;,&quot;album_type&quot;:&quot;album&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/albums\/6i6folBtxKV28WX3msQ4FE&quot;,&quot;id&quot;:&quot;6i6folBtxKV28WX3msQ4FE&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/album\/6i6folBtxKV28WX3msQ4FE&quot;}},&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;type&quot;:&quot;track&quot;,&quot;external_ids&quot;:{&quot;isrc&quot;:&quot;GBUM71029613&quot;},&quot;uri&quot;:&quot;spotify:track:5txoZyuAmtCfmDjUCEphWm&quot;,&quot;duration_ms&quot;:295733,&quot;explicit&quot;:false,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;preview_url&quot;:null,&quot;popularity&quot;:65,&quot;name&quot;:&quot;Somebody To Love&quot;,&quot;track_number&quot;:2,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/tracks\/5txoZyuAmtCfmDjUCEphWm&quot;,&quot;id&quot;:&quot;5txoZyuAmtCfmDjUCEphWm&quot;,&quot;is_local&quot;:false,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/track\/5txoZyuAmtCfmDjUCEphWm&quot;}},{&quot;disc_number&quot;:1,&quot;album&quot;:{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d0000b2735c15ce34677e7907b69adfd0&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00001e025c15ce34677e7907b69adfd0&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d000048515c15ce34677e7907b69adfd0&quot;,&quot;height&quot;:64}],&quot;available_markets&quot;:[&quot;AE&quot;,&quot;AL&quot;,&quot;AO&quot;,&quot;AU&quot;,&quot;BA&quot;,&quot;BD&quot;,&quot;BF&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CI&quot;,&quot;CM&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DZ&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GW&quot;,&quot;HK&quot;,&quot;HR&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;ST&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UG&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;release_date_precision&quot;:&quot;day&quot;,&quot;type&quot;:&quot;album&quot;,&quot;uri&quot;:&quot;spotify:album:0FYgnePzW5hI6E5GT9tuUq&quot;,&quot;total_tracks&quot;:20,&quot;artists&quot;:[{&quot;name&quot;:&quot;Imany&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/74eY8wbrhhVD7pACbBHwHw&quot;,&quot;id&quot;:&quot;74eY8wbrhhVD7pACbBHwHw&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/74eY8wbrhhVD7pACbBHwHw&quot;},&quot;uri&quot;:&quot;spotify:artist:74eY8wbrhhVD7pACbBHwHw&quot;}],&quot;release_date&quot;:&quot;2019-10-25&quot;,&quot;name&quot;:&quot;Live at the Casino de Paris&quot;,&quot;album_type&quot;:&quot;album&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/albums\/0FYgnePzW5hI6E5GT9tuUq&quot;,&quot;id&quot;:&quot;0FYgnePzW5hI6E5GT9tuUq&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/album\/0FYgnePzW5hI6E5GT9tuUq&quot;}},&quot;available_markets&quot;:[&quot;AE&quot;,&quot;AL&quot;,&quot;AO&quot;,&quot;AU&quot;,&quot;BA&quot;,&quot;BD&quot;,&quot;BF&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CI&quot;,&quot;CM&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DZ&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GW&quot;,&quot;HK&quot;,&quot;HR&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;ST&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UG&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;type&quot;:&quot;track&quot;,&quot;external_ids&quot;:{&quot;isrc&quot;:&quot;FR1Q01900015&quot;},&quot;uri&quot;:&quot;spotify:track:4iaFeQmLOAGakujr0kUbb3&quot;,&quot;duration_ms&quot;:393120,&quot;explicit&quot;:false,&quot;artists&quot;:[{&quot;name&quot;:&quot;Imany&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/74eY8wbrhhVD7pACbBHwHw&quot;,&quot;id&quot;:&quot;74eY8wbrhhVD7pACbBHwHw&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/74eY8wbrhhVD7pACbBHwHw&quot;},&quot;uri&quot;:&quot;spotify:artist:74eY8wbrhhVD7pACbBHwHw&quot;}],&quot;preview_url&quot;:&quot;https:\/\/p.scdn.co\/mp3-preview\/e5cc74f237f14d9bbd0aeedc782f383643d8c23c?cid=774b29d4f13844c495f206cafdad9c86&quot;,&quot;popularity&quot;:24,&quot;name&quot;:&quot;Bohemian Rhapsody - Live at the Casino de Paris&quot;,&quot;track_number&quot;:6,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/tracks\/4iaFeQmLOAGakujr0kUbb3&quot;,&quot;id&quot;:&quot;4iaFeQmLOAGakujr0kUbb3&quot;,&quot;is_local&quot;:false,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/track\/4iaFeQmLOAGakujr0kUbb3&quot;}},{&quot;disc_number&quot;:1,&quot;album&quot;:{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d0000b273e8b066f70c206551210d902b&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00001e02e8b066f70c206551210d902b&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00004851e8b066f70c206551210d902b&quot;,&quot;height&quot;:64}],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;release_date_precision&quot;:&quot;day&quot;,&quot;type&quot;:&quot;album&quot;,&quot;uri&quot;:&quot;spotify:album:6i6folBtxKV28WX3msQ4FE&quot;,&quot;total_tracks&quot;:22,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;release_date&quot;:&quot;2018-10-19&quot;,&quot;name&quot;:&quot;Bohemian Rhapsody (The Original Soundtrack)&quot;,&quot;album_type&quot;:&quot;album&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/albums\/6i6folBtxKV28WX3msQ4FE&quot;,&quot;id&quot;:&quot;6i6folBtxKV28WX3msQ4FE&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/album\/6i6folBtxKV28WX3msQ4FE&quot;}},&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;type&quot;:&quot;track&quot;,&quot;external_ids&quot;:{&quot;isrc&quot;:&quot;GBUM71805985&quot;},&quot;uri&quot;:&quot;spotify:track:4XaG9IpCXklOcuau1sIrUX&quot;,&quot;duration_ms&quot;:237025,&quot;explicit&quot;:false,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;preview_url&quot;:null,&quot;popularity&quot;:62,&quot;name&quot;:&quot;We Are The Champions - Live Aid&quot;,&quot;track_number&quot;:20,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/tracks\/4XaG9IpCXklOcuau1sIrUX&quot;,&quot;id&quot;:&quot;4XaG9IpCXklOcuau1sIrUX&quot;,&quot;is_local&quot;:false,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/track\/4XaG9IpCXklOcuau1sIrUX&quot;}},{&quot;disc_number&quot;:2,&quot;album&quot;:{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d0000b273efd5124f95524b047ff71be8&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00001e02efd5124f95524b047ff71be8&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00004851efd5124f95524b047ff71be8&quot;,&quot;height&quot;:64}],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;release_date_precision&quot;:&quot;day&quot;,&quot;type&quot;:&quot;album&quot;,&quot;uri&quot;:&quot;spotify:album:58cLPp4yE9IkQ7TvuHS5r9&quot;,&quot;total_tracks&quot;:28,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;release_date&quot;:&quot;2007-10-09&quot;,&quot;name&quot;:&quot;Queen Rock Montreal&quot;,&quot;album_type&quot;:&quot;album&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/albums\/58cLPp4yE9IkQ7TvuHS5r9&quot;,&quot;id&quot;:&quot;58cLPp4yE9IkQ7TvuHS5r9&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/album\/58cLPp4yE9IkQ7TvuHS5r9&quot;}},&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;type&quot;:&quot;track&quot;,&quot;external_ids&quot;:{&quot;isrc&quot;:&quot;GBCEE0700025&quot;},&quot;uri&quot;:&quot;spotify:track:64uO28GXj2aA7DYcvnEoCl&quot;,&quot;duration_ms&quot;:328933,&quot;explicit&quot;:false,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;preview_url&quot;:null,&quot;popularity&quot;:40,&quot;name&quot;:&quot;Bohemian Rhapsody - Live&quot;,&quot;track_number&quot;:9,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/tracks\/64uO28GXj2aA7DYcvnEoCl&quot;,&quot;id&quot;:&quot;64uO28GXj2aA7DYcvnEoCl&quot;,&quot;is_local&quot;:false,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/track\/64uO28GXj2aA7DYcvnEoCl&quot;}},{&quot;disc_number&quot;:1,&quot;album&quot;:{&quot;images&quot;:[{&quot;width&quot;:640,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d0000b273e8b066f70c206551210d902b&quot;,&quot;height&quot;:640},{&quot;width&quot;:300,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00001e02e8b066f70c206551210d902b&quot;,&quot;height&quot;:300},{&quot;width&quot;:64,&quot;url&quot;:&quot;https:\/\/i.scdn.co\/image\/ab67616d00004851e8b066f70c206551210d902b&quot;,&quot;height&quot;:64}],&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;release_date_precision&quot;:&quot;day&quot;,&quot;type&quot;:&quot;album&quot;,&quot;uri&quot;:&quot;spotify:album:6i6folBtxKV28WX3msQ4FE&quot;,&quot;total_tracks&quot;:22,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;}],&quot;release_date&quot;:&quot;2018-10-19&quot;,&quot;name&quot;:&quot;Bohemian Rhapsody (The Original Soundtrack)&quot;,&quot;album_type&quot;:&quot;album&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/albums\/6i6folBtxKV28WX3msQ4FE&quot;,&quot;id&quot;:&quot;6i6folBtxKV28WX3msQ4FE&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/album\/6i6folBtxKV28WX3msQ4FE&quot;}},&quot;available_markets&quot;:[&quot;AD&quot;,&quot;AE&quot;,&quot;AG&quot;,&quot;AL&quot;,&quot;AM&quot;,&quot;AO&quot;,&quot;AR&quot;,&quot;AT&quot;,&quot;AU&quot;,&quot;AZ&quot;,&quot;BA&quot;,&quot;BB&quot;,&quot;BD&quot;,&quot;BE&quot;,&quot;BF&quot;,&quot;BG&quot;,&quot;BH&quot;,&quot;BI&quot;,&quot;BJ&quot;,&quot;BN&quot;,&quot;BO&quot;,&quot;BR&quot;,&quot;BS&quot;,&quot;BT&quot;,&quot;BW&quot;,&quot;BY&quot;,&quot;BZ&quot;,&quot;CD&quot;,&quot;CG&quot;,&quot;CH&quot;,&quot;CI&quot;,&quot;CL&quot;,&quot;CM&quot;,&quot;CO&quot;,&quot;CR&quot;,&quot;CV&quot;,&quot;CW&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;DE&quot;,&quot;DJ&quot;,&quot;DK&quot;,&quot;DM&quot;,&quot;DO&quot;,&quot;DZ&quot;,&quot;EC&quot;,&quot;EE&quot;,&quot;EG&quot;,&quot;ES&quot;,&quot;FI&quot;,&quot;FJ&quot;,&quot;FM&quot;,&quot;FR&quot;,&quot;GA&quot;,&quot;GB&quot;,&quot;GD&quot;,&quot;GE&quot;,&quot;GH&quot;,&quot;GM&quot;,&quot;GN&quot;,&quot;GQ&quot;,&quot;GR&quot;,&quot;GT&quot;,&quot;GW&quot;,&quot;GY&quot;,&quot;HK&quot;,&quot;HN&quot;,&quot;HR&quot;,&quot;HT&quot;,&quot;HU&quot;,&quot;ID&quot;,&quot;IE&quot;,&quot;IL&quot;,&quot;IN&quot;,&quot;IQ&quot;,&quot;IS&quot;,&quot;IT&quot;,&quot;JM&quot;,&quot;JO&quot;,&quot;JP&quot;,&quot;KE&quot;,&quot;KG&quot;,&quot;KH&quot;,&quot;KI&quot;,&quot;KM&quot;,&quot;KN&quot;,&quot;KR&quot;,&quot;KW&quot;,&quot;KZ&quot;,&quot;LA&quot;,&quot;LB&quot;,&quot;LC&quot;,&quot;LI&quot;,&quot;LK&quot;,&quot;LR&quot;,&quot;LS&quot;,&quot;LT&quot;,&quot;LU&quot;,&quot;LV&quot;,&quot;LY&quot;,&quot;MA&quot;,&quot;MC&quot;,&quot;MD&quot;,&quot;ME&quot;,&quot;MG&quot;,&quot;MH&quot;,&quot;MK&quot;,&quot;ML&quot;,&quot;MN&quot;,&quot;MO&quot;,&quot;MR&quot;,&quot;MT&quot;,&quot;MU&quot;,&quot;MV&quot;,&quot;MW&quot;,&quot;MX&quot;,&quot;MY&quot;,&quot;MZ&quot;,&quot;NA&quot;,&quot;NE&quot;,&quot;NG&quot;,&quot;NI&quot;,&quot;NL&quot;,&quot;NO&quot;,&quot;NP&quot;,&quot;NR&quot;,&quot;NZ&quot;,&quot;OM&quot;,&quot;PA&quot;,&quot;PE&quot;,&quot;PG&quot;,&quot;PH&quot;,&quot;PK&quot;,&quot;PL&quot;,&quot;PS&quot;,&quot;PT&quot;,&quot;PW&quot;,&quot;PY&quot;,&quot;QA&quot;,&quot;RO&quot;,&quot;RS&quot;,&quot;RW&quot;,&quot;SA&quot;,&quot;SB&quot;,&quot;SC&quot;,&quot;SE&quot;,&quot;SG&quot;,&quot;SI&quot;,&quot;SK&quot;,&quot;SL&quot;,&quot;SM&quot;,&quot;SN&quot;,&quot;SR&quot;,&quot;ST&quot;,&quot;SV&quot;,&quot;SZ&quot;,&quot;TD&quot;,&quot;TG&quot;,&quot;TH&quot;,&quot;TJ&quot;,&quot;TL&quot;,&quot;TN&quot;,&quot;TO&quot;,&quot;TR&quot;,&quot;TT&quot;,&quot;TV&quot;,&quot;TW&quot;,&quot;TZ&quot;,&quot;UA&quot;,&quot;UG&quot;,&quot;UY&quot;,&quot;UZ&quot;,&quot;VC&quot;,&quot;VE&quot;,&quot;VN&quot;,&quot;VU&quot;,&quot;WS&quot;,&quot;XK&quot;,&quot;ZA&quot;,&quot;ZM&quot;,&quot;ZW&quot;],&quot;type&quot;:&quot;track&quot;,&quot;external_ids&quot;:{&quot;isrc&quot;:&quot;GBUM71029622&quot;},&quot;uri&quot;:&quot;spotify:track:6suU8oBlW4O2pg88tOXgHo&quot;,&quot;duration_ms&quot;:244484,&quot;explicit&quot;:false,&quot;artists&quot;:[{&quot;name&quot;:&quot;Queen&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;id&quot;:&quot;1dfeR4HaWDbWqFHLkxsg1d&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/1dfeR4HaWDbWqFHLkxsg1d&quot;},&quot;uri&quot;:&quot;spotify:artist:1dfeR4HaWDbWqFHLkxsg1d&quot;},{&quot;name&quot;:&quot;David Bowie&quot;,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/artists\/0oSGxfWSnnOXhD2fKuz2Gy&quot;,&quot;id&quot;:&quot;0oSGxfWSnnOXhD2fKuz2Gy&quot;,&quot;type&quot;:&quot;artist&quot;,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/artist\/0oSGxfWSnnOXhD2fKuz2Gy&quot;},&quot;uri&quot;:&quot;spotify:artist:0oSGxfWSnnOXhD2fKuz2Gy&quot;}],&quot;preview_url&quot;:null,&quot;popularity&quot;:60,&quot;name&quot;:&quot;Under Pressure&quot;,&quot;track_number&quot;:14,&quot;href&quot;:&quot;https:\/\/api.spotify.com\/v1\/tracks\/6suU8oBlW4O2pg88tOXgHo&quot;,&quot;id&quot;:&quot;6suU8oBlW4O2pg88tOXgHo&quot;,&quot;is_local&quot;:false,&quot;external_urls&quot;:{&quot;spotify&quot;:&quot;https:\/\/open.spotify.com\/track\/6suU8oBlW4O2pg88tOXgHo&quot;}}]}}
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
